@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>懒猫微服文章</title>
+    <link rel="stylesheet" href="articles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>专栏作家手把手带你玩转懒猫微服</h1>
+        <p class="subtitle" id="count">加载中...</p>
+        <div class="search-box">
+            <input type="text" id="search" placeholder="搜索文章..." autocomplete="off">
+        </div>
+        <div class="tag-filter" id="tags"></div>
+        <ul class="article-list" id="article-list"></ul>
+    </div>
+    <script>
+        let articles = [];
+        let currentTag = 'all';
+        
+        async function loadArticles() {
+            try {
+                const resp = await fetch('articles/articles.json?' + Date.now());
+                const meta = await resp.json();
+                
+                // 过滤懒猫微服文章并排序
+                articles = Object.values(meta)
+                    .filter(a => a.main_cat === '懒猫微服')
+                    .sort((a, b) => new Date(b.date) - new Date(a.date));
+                
+                // 收集所有标签
+                const tags = new Set();
+                articles.forEach(a => {
+                    if (a.sub_cat) tags.add(a.sub_cat);
+                });
+                
+                // 渲染标签
+                const tagsHtml = ['<button class="tag-btn active" data-tag="all">全部</button>'];
+                Array.from(tags).sort().forEach(tag => {
+                    tagsHtml.push(`<button class="tag-btn" data-tag="${tag}">${tag}</button>`);
+                });
+                document.getElementById('tags').innerHTML = tagsHtml.join('');
+                
+                // 绑定标签点击
+                document.querySelectorAll('.tag-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+                        this.classList.add('active');
+                        currentTag = this.getAttribute('data-tag');
+                        renderArticles();
+                    });
+                });
+                
+                document.getElementById('count').textContent = `共 ${articles.length} 篇文章`;
+                renderArticles();
+            } catch (e) {
+                document.getElementById('count').textContent = '暂无文章';
+                console.error(e);
+            }
+        }
+        
+        function renderArticles() {
+            const query = document.getElementById('search').value.toLowerCase();
+            const list = document.getElementById('article-list');
+            
+            const filtered = articles.filter(a => {
+                const matchSearch = a.title.toLowerCase().includes(query);
+                const matchTag = currentTag === 'all' || a.sub_cat === currentTag;
+                return matchSearch && matchTag;
+            });
+            
+            list.innerHTML = filtered.map(a => {
+                const filename = a.title.replace(/[<>:"/\\|?*]/g, '').slice(0, 80) + '.html';
+                return `
+                    <li class="article-item">
+                        <div class="article-info">
+                            <a href="articles/${filename}">${a.title}</a>
+                            ${a.sub_cat ? `<span class="article-tag">${a.sub_cat}</span>` : ''}
+                        </div>
+                        <span class="article-date">${a.date}</span>
+                    </li>
+                `;
+            }).join('');
+        }
+        
+        document.getElementById('search').addEventListener('input', renderArticles);
+        
+        // 初始加载
+        loadArticles();
+        
+        // 每 10 秒刷新一次
+        setInterval(loadArticles, 10000);
+    </script>
+</body>
+</html>

@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime
+from urllib.parse import unquote
 import re
 import time
 import json
@@ -11,14 +12,13 @@ import json
 RSS_URL = "https://airag.click/atom.xml"
 OUTPUT_DIR = Path("/data/articles") if Path("/data").exists() else Path(__file__).parent / "articles"
 FILTER_CATEGORY = "懒猫微服"
-META_FILE = "articles.json"  # 文章元数据缓存
+META_FILE = "articles.json"
 
 def clean_filename(title):
     cleaned = re.sub(r'[<>:"/\\|?*]', '', title)
     return cleaned[:80]
 
 def load_meta():
-    """加载文章元数据"""
     meta_path = OUTPUT_DIR / META_FILE
     if meta_path.exists():
         with open(meta_path, 'r', encoding='utf-8') as f:
@@ -26,42 +26,61 @@ def load_meta():
     return {}
 
 def save_meta(meta):
-    """保存文章元数据"""
     with open(OUTPUT_DIR / META_FILE, 'w', encoding='utf-8') as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
 
 def fetch_article(url):
-    """抓取文章，返回 (content_html, categories)"""
+    """抓取文章，返回 (content_html, main_category, sub_category)"""
     try:
         resp = requests.get(url, timeout=30)
         resp.encoding = 'utf-8'
         soup = BeautifulSoup(resp.text, 'html.parser')
         
-        # 获取分类（只取文章头部 level-item 里的，排除侧边栏 tags）
-        categories = []
-        for span in soup.find_all('span', class_='level-item'):
-            a = span.find('a', href=re.compile(r'/categories/'))
-            if a:
-                cat = a.get_text().strip()
-                if cat:
-                    categories.append(cat)
+        # 获取分类 - 从 p.categories 或 level-item 里找
+        main_cat = ''
+        sub_cat = ''
+        
+        # 方法1: 从 p.categories 找（包含完整路径）
+        cat_p = soup.find('p', class_='categories')
+        if cat_p:
+            links = cat_p.find_all('a', href=re.compile(r'/categories/'))
+            for a in links:
+                href = a.get('href', '')
+                parts = [unquote(p) for p in href.strip('/').split('/') if p and p != 'categories']
+                if len(parts) >= 1 and not main_cat:
+                    main_cat = parts[0]
+                if len(parts) >= 2:
+                    sub_cat = parts[1]
+                    break
+        
+        # 方法2: 从 level-item 找（备用）
+        if not main_cat:
+            for span in soup.find_all('span', class_='level-item'):
+                a = span.find('a', href=re.compile(r'/categories/'))
+                if a:
+                    href = a.get('href', '')
+                    parts = [unquote(p) for p in href.strip('/').split('/') if p and p != 'categories']
+                    if len(parts) >= 1:
+                        main_cat = parts[0]
+                    if len(parts) >= 2:
+                        sub_cat = parts[1]
+                    break
         
         # 获取文章内容
         article = soup.find('article')
         if not article:
-            return None, categories
+            return None, main_cat, sub_cat
         
         content_div = article.find('div', class_='content')
         if not content_div:
-            return None, categories
+            return None, main_cat, sub_cat
         
         # 清理
         for tag in content_div.find_all(['script', 'style']):
             tag.decompose()
         
-        # 处理代码块，提取语言类型
+        # 处理代码块
         for figure in content_div.find_all('figure'):
-            # 获取语言类型
             lang = ''
             fig_class = figure.get('class', [])
             for c in fig_class:
@@ -113,14 +132,20 @@ def fetch_article(url):
                 tag.attrs = {}
         
         html = ''.join(str(child) for child in content_div.children)
-        return html.strip(), categories
+        return html.strip(), main_cat, sub_cat
         
     except Exception as e:
         print(f"  错误: {e}")
-        return None, []
+        return None, '', ''
 
-def generate_index(articles):
-    """生成文章列表首页（带搜索）"""
+def generate_index(articles, all_tags):
+    """生成文章列表首页（带搜索和标签筛选）"""
+    
+    # 标签按钮 HTML
+    tags_html = '<button class="tag-btn active" data-tag="all">全部</button>\n'
+    for tag in sorted(all_tags):
+        tags_html += f'            <button class="tag-btn" data-tag="{tag}">{tag}</button>\n'
+    
     html = '''<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -136,23 +161,50 @@ def generate_index(articles):
         <div class="search-box">
             <input type="text" id="search" placeholder="搜索文章..." autocomplete="off">
         </div>
+        <div class="tag-filter">
+            ''' + tags_html + '''
+        </div>
         <ul class="article-list" id="article-list">
 '''
     for art in articles:
         date_str = art.get('date', '')
-        html += f'''            <li class="article-item" data-title="{art['title'].lower()}">
-                <a href="{art['filename']}">{art['title']}</a>
+        sub_cat = art.get('sub_cat', '')
+        html += f'''            <li class="article-item" data-title="{art['title'].lower()}" data-tag="{sub_cat}">
+                <div class="article-info">
+                    <a href="{art['filename']}">{art['title']}</a>
+                    <span class="article-tag">{sub_cat}</span>
+                </div>
                 <span class="article-date">{date_str}</span>
             </li>
 '''
     html += '''        </ul>
     </div>
     <script>
-        document.getElementById('search').addEventListener('input', function(e) {
-            const query = e.target.value.toLowerCase();
-            document.querySelectorAll('.article-item').forEach(item => {
+        const searchInput = document.getElementById('search');
+        const tagBtns = document.querySelectorAll('.tag-btn');
+        const items = document.querySelectorAll('.article-item');
+        
+        let currentTag = 'all';
+        
+        function filterArticles() {
+            const query = searchInput.value.toLowerCase();
+            items.forEach(item => {
                 const title = item.getAttribute('data-title');
-                item.style.display = title.includes(query) ? '' : 'none';
+                const tag = item.getAttribute('data-tag');
+                const matchSearch = title.includes(query);
+                const matchTag = currentTag === 'all' || tag === currentTag;
+                item.style.display = (matchSearch && matchTag) ? '' : 'none';
+            });
+        }
+        
+        searchInput.addEventListener('input', filterArticles);
+        
+        tagBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                tagBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentTag = this.getAttribute('data-tag');
+                filterArticles();
             });
         });
     </script>
@@ -172,8 +224,8 @@ ARTICLE_TEMPLATE = '''<!DOCTYPE html>
 </head>
 <body>
     <div class="container">
-        <a class="back" href="index.html">← 返回列表</a>
-        <div class="meta">{date} · <a href="{link}">原文链接</a></div>
+        <a class="back" href="../index.html">← 返回列表</a>
+        <div class="meta">{date} · {sub_cat} · <a href="{link}">原文链接</a></div>
         <h1>{title}</h1>
         <div class="content">{content}</div>
     </div>
@@ -182,7 +234,6 @@ ARTICLE_TEMPLATE = '''<!DOCTYPE html>
 </html>'''
 
 def parse_date(entry):
-    """解析 RSS 日期"""
     if hasattr(entry, 'published_parsed') and entry.published_parsed:
         return datetime(*entry.published_parsed[:6])
     if hasattr(entry, 'updated_parsed') and entry.updated_parsed:
@@ -203,9 +254,9 @@ def fetch():
     
     print(f"RSS 共 {len(feed.entries)} 篇，过滤分类: {FILTER_CATEGORY}")
     
-    # 加载已有元数据
     meta = load_meta()
     articles = []
+    all_tags = set()
     
     for entry in feed.entries:
         title = entry.title
@@ -215,71 +266,73 @@ def fetch():
         pub_date = parse_date(entry)
         date_str = pub_date.strftime('%Y-%m-%d')
         
-        # 检查缓存：已确认是目标分类的文章
+        # 检查缓存
         if filename in meta:
             cached = meta[filename]
-            # 检查缓存的分类列表是否包含目标分类
-            cached_cats = cached.get('categories', [])
-            if FILTER_CATEGORY in cached_cats:
+            if cached.get('main_cat') == FILTER_CATEGORY:
+                sub_cat = cached.get('sub_cat', '')
+                if sub_cat:
+                    all_tags.add(sub_cat)
                 articles.append({
                     'title': title,
                     'filename': filename,
                     'date': date_str,
+                    'sub_cat': sub_cat,
                     'timestamp': pub_date.timestamp()
                 })
             continue
         
         print(f"检查: {title[:40]}...")
-        content, categories = fetch_article(link)
+        content, main_cat, sub_cat = fetch_article(link)
         
-        # 记录元数据（保存所有分类）
+        # 记录元数据
         meta[filename] = {
             'title': title,
             'link': link,
             'date': date_str,
-            'categories': categories
+            'main_cat': main_cat,
+            'sub_cat': sub_cat
         }
         
         # 过滤分类
-        if FILTER_CATEGORY not in categories:
-            print(f"  跳过 (分类: {categories})")
+        if main_cat != FILTER_CATEGORY:
+            print(f"  跳过 (分类: {main_cat})")
             continue
         
         if not content:
             print(f"  跳过 (无内容)")
             continue
         
-        print(f"  保存 ✓")
+        print(f"  保存 ✓ [{sub_cat}]")
+        
+        if sub_cat:
+            all_tags.add(sub_cat)
         
         html = ARTICLE_TEMPLATE.format(
             title=title, 
             link=link, 
             content=content,
-            date=date_str
+            date=date_str,
+            sub_cat=sub_cat or '其他'
         )
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(html)
+        
+        # 每保存一篇就更新 JSON，让前端能实时看到
+        save_meta(meta)
         
         articles.append({
             'title': title,
             'filename': filename,
             'date': date_str,
+            'sub_cat': sub_cat,
             'timestamp': pub_date.timestamp()
         })
         time.sleep(0.5)
     
-    # 保存元数据
     save_meta(meta)
     
-    # 按时间排序（最新在前）
-    articles.sort(key=lambda x: x.get('timestamp', 0), reverse=True)
-    
-    # 生成首页
-    index_html = generate_index(articles)
-    with open(OUTPUT_DIR / 'index.html', 'w', encoding='utf-8') as f:
-        f.write(index_html)
-    
-    print(f"[{datetime.now()}] 完成，共 {len(articles)} 篇懒猫微服文章")
+    print(f"[{datetime.now()}] 完成，共 {len(articles)} 篇懒猫微服文章，{len(all_tags)} 个标签")
 
 if __name__ == "__main__":
     fetch()

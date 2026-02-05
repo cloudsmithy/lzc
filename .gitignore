@@ -1,0 +1,4 @@
+articles/*.html
+articles/articles.json
+__pycache__/
+*.pyc
