@@ -37,12 +37,14 @@ def fetch_article(url):
         resp.encoding = 'utf-8'
         soup = BeautifulSoup(resp.text, 'html.parser')
         
-        # 获取分类
+        # 获取分类（只取文章头部 level-item 里的，排除侧边栏 tags）
         categories = []
-        for a in soup.find_all('a', href=re.compile(r'/categories/')):
-            cat = a.get_text().strip()
-            if cat:
-                categories.append(cat)
+        for span in soup.find_all('span', class_='level-item'):
+            a = span.find('a', href=re.compile(r'/categories/'))
+            if a:
+                cat = a.get_text().strip()
+                if cat:
+                    categories.append(cat)
         
         # 获取文章内容
         article = soup.find('article')
@@ -215,7 +217,10 @@ def fetch():
         
         # 检查缓存：已确认是目标分类的文章
         if filename in meta:
-            if meta[filename].get('category') == FILTER_CATEGORY:
+            cached = meta[filename]
+            # 检查缓存的分类列表是否包含目标分类
+            cached_cats = cached.get('categories', [])
+            if FILTER_CATEGORY in cached_cats:
                 articles.append({
                     'title': title,
                     'filename': filename,
@@ -227,12 +232,12 @@ def fetch():
         print(f"检查: {title[:40]}...")
         content, categories = fetch_article(link)
         
-        # 记录元数据
+        # 记录元数据（保存所有分类）
         meta[filename] = {
             'title': title,
             'link': link,
             'date': date_str,
-            'category': categories[0] if categories else ''
+            'categories': categories
         }
         
         # 过滤分类
