@@ -177,6 +177,34 @@ h1 {
 }
 .article-item a:hover { color: #0071e3; }
 
+.article-date {
+    color: #86868b;
+    font-size: 13px;
+    margin-left: 12px;
+}
+
+/* 搜索框 */
+.search-box {
+    margin-bottom: 32px;
+}
+.search-box input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #d2d2d7;
+    border-radius: 10px;
+    outline: none;
+    font-family: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.search-box input:focus {
+    border-color: #0071e3;
+    box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.1);
+}
+.search-box input::placeholder {
+    color: #86868b;
+}
+
 /* 响应式 */
 @media (max-width: 600px) {
     .container { padding: 40px 20px; }
