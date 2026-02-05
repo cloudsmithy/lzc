@@ -1,0 +1,185 @@
+/* Apple 风格文章样式 */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "PingFang SC", sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+    color: #1d1d1f;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 60px 24px;
+}
+
+/* 返回链接 */
+.back {
+    color: #0071e3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+.back:hover { text-decoration: underline; }
+
+/* 元信息 */
+.meta {
+    color: #86868b;
+    font-size: 12px;
+    margin: 28px 0 8px;
+    letter-spacing: 0.01em;
+}
+.meta a { color: #86868b; text-decoration: none; }
+.meta a:hover { text-decoration: underline; }
+
+/* 标题 */
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1d1d1f;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+    margin-bottom: 40px;
+}
+
+/* 文章内容 */
+.content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 48px 0 16px;
+    letter-spacing: -0.01em;
+}
+.content h3 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 36px 0 12px;
+    letter-spacing: -0.005em;
+}
+
+.content p {
+    margin: 18px 0;
+    color: #1d1d1f;
+}
+
+.content ul, .content ol {
+    margin: 18px 0;
+    padding-left: 1.4em;
+}
+.content li {
+    margin: 8px 0;
+    color: #1d1d1f;
+}
+
+/* 行内代码 - 红色 */
+.content code {
+    background: transparent;
+    color: #d63384;
+    font-size: 0.88em;
+    font-family: "SF Mono", SFMono-Regular, ui-monospace, Menlo, monospace;
+    padding: 0 3px;
+    font-weight: 500;
+}
+
+/* 代码块 - 深色 */
+.content pre {
+    background: #1d1d1f;
+    color: #f5f5f7;
+    padding: 20px 24px;
+    border-radius: 12px;
+    overflow-x: auto;
+    font-size: 14px;
+    font-family: "SF Mono", SFMono-Regular, ui-monospace, Menlo, monospace;
+    margin: 24px 0;
+    line-height: 1.5;
+}
+.content pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+    font-weight: 400;
+}
+
+/* 图片 */
+.content img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 28px 0;
+}
+
+/* 引用 */
+.content blockquote {
+    border-left: 3px solid #0071e3;
+    padding: 4px 0 4px 20px;
+    margin: 24px 0;
+    color: #6e6e73;
+}
+.content blockquote p { margin: 8px 0; }
+
+/* 表格 */
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-size: 15px;
+}
+.content th, .content td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #d2d2d7;
+    text-align: left;
+}
+.content th {
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+/* 链接 */
+.content a {
+    color: #0071e3;
+    text-decoration: none;
+}
+.content a:hover { text-decoration: underline; }
+
+.content strong {
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+/* 首页样式 */
+.subtitle {
+    color: #86868b;
+    font-size: 14px;
+    margin-bottom: 40px;
+    letter-spacing: 0.01em;
+}
+
+.article-list { list-style: none; }
+
+.article-item {
+    padding: 18px 0;
+    border-bottom: 1px solid #d2d2d7;
+}
+.article-item:last-child { border-bottom: none; }
+
+.article-item a {
+    color: #1d1d1f;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    transition: color 0.15s ease;
+}
+.article-item a:hover { color: #0071e3; }
+
+/* 响应式 */
+@media (max-width: 600px) {
+    .container { padding: 40px 20px; }
+    h1 { font-size: 26px; }
+    .content h2 { font-size: 21px; }
+}

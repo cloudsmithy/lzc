@@ -1,0 +1,7 @@
+services:
+  article-fetcher:
+    build: .
+    container_name: airag-fetcher
+    volumes:
+      - ./articles:/data/articles
+    restart: unless-stopped
