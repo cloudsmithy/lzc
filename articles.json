@@ -1,0 +1,2039 @@
+{
+  ".html": {
+    "title": "",
+    "link": "https://cloudsmithy.github.io/posts/0/",
+    "date": "2026-03-11",
+    "main_cat": "",
+    "sub_cat": ""
+  },
+  "在 Kubernetes 上用 Fluent Bit 收集 Nginx 日志到 Easysearch.html": {
+    "title": "在 Kubernetes 上用 Fluent Bit 收集 Nginx 日志到 Easysearch",
+    "link": "https://cloudsmithy.github.io/posts/8fee9a49/",
+    "date": "2026-03-10",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "在AWS EC2 上从零搭建 Kubernetes 集群（kubeadm）.html": {
+    "title": "在AWS EC2 上从零搭建 Kubernetes 集群（kubeadm）",
+    "link": "https://cloudsmithy.github.io/posts/7e9d67ce/",
+    "date": "2026-03-05",
+    "main_cat": "AWS",
+    "sub_cat": ""
+  },
+  "修复 GitHub Pages 推送后 CNAME 自动重置旧域名的问题.html": {
+    "title": "修复 GitHub Pages 推送后 CNAME 自动重置旧域名的问题",
+    "link": "https://cloudsmithy.github.io/posts/6ec894ce/",
+    "date": "2026-03-04",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "k3s + Helm 部署 Easysearch.html": {
+    "title": "k3s + Helm 部署 Easysearch",
+    "link": "https://cloudsmithy.github.io/posts/1dba38bc/",
+    "date": "2026-03-02",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "k8s yml小抄.md.html": {
+    "title": "k8s yml小抄.md",
+    "link": "https://cloudsmithy.github.io/posts/6921fb6f/",
+    "date": "2026-03-01",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "懒猫微服实战入门（三十六）：懒猫微服QEMU虚拟机快速上手.html": {
+    "title": "懒猫微服实战入门（三十六）：懒猫微服QEMU虚拟机快速上手",
+    "link": "https://cloudsmithy.github.io/posts/5f202ca3/",
+    "date": "2026-02-25",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "Easysearch 数据映射之 Deep Dive：我踩过的 Volume 坑.html": {
+    "title": "Easysearch 数据映射之 Deep Dive：我踩过的 Volume 坑",
+    "link": "https://cloudsmithy.github.io/posts/65e472bd/",
+    "date": "2026-02-25",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "超效率手册.html": {
+    "title": "超效率手册",
+    "link": "https://cloudsmithy.github.io/posts/b6e1e84a/",
+    "date": "2026-02-24",
+    "main_cat": "摘抄",
+    "sub_cat": ""
+  },
+  "给Macbook Pro安装Fedora Asahi Remix.html": {
+    "title": "给Macbook Pro安装Fedora Asahi Remix",
+    "link": "https://cloudsmithy.github.io/posts/5743bae5/",
+    "date": "2026-02-22",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "安卓ADB提取APK安装包.html": {
+    "title": "安卓ADB提取APK安装包",
+    "link": "https://cloudsmithy.github.io/posts/17adb539/",
+    "date": "2026-02-21",
+    "main_cat": "电子产品",
+    "sub_cat": "软件技巧"
+  },
+  "记一次硬盘满了导致 Coco Server 无法启动的排查.html": {
+    "title": "记一次硬盘满了导致 Coco Server 无法启动的排查",
+    "link": "https://cloudsmithy.github.io/posts/db853650/",
+    "date": "2026-02-20",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "安卓也有terminal，使用无线ADB解锁X300的终端.html": {
+    "title": "安卓也有terminal，使用无线ADB解锁X300的终端",
+    "link": "https://cloudsmithy.github.io/posts/d5ad04d5/",
+    "date": "2026-02-19",
+    "main_cat": "电子产品",
+    "sub_cat": "软件技巧"
+  },
+  "RK3566嵌入式开发板运行Coco AI Sever.html": {
+    "title": "RK3566嵌入式开发板运行Coco AI Sever",
+    "link": "https://cloudsmithy.github.io/posts/ce955007/",
+    "date": "2026-02-17",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "被CUPS共享打印机驱动搞疯了，换windows10 做打印机 server吧.html": {
+    "title": "被CUPS共享打印机驱动搞疯了，换windows10 做打印机 server吧",
+    "link": "https://cloudsmithy.github.io/posts/7cc2eba9/",
+    "date": "2026-02-17",
+    "main_cat": "电子产品",
+    "sub_cat": "打印机"
+  },
+  "Docker启动Coco AI Server后，如何访问内置Easysearch.html": {
+    "title": "Docker启动Coco AI Server后，如何访问内置Easysearch",
+    "link": "https://cloudsmithy.github.io/posts/b7b40656/",
+    "date": "2026-02-16",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "懒猫微服实战入门（三十五）：不要再买打印机小白盒了，用懒猫微服把有线打印机改成无线，还支持airprint.html": {
+    "title": "懒猫微服实战入门（三十五）：不要再买打印机小白盒了，用懒猫微服把有线打印机改成无线，还支持airprint",
+    "link": "https://cloudsmithy.github.io/posts/846eeff9/",
+    "date": "2026-02-14",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "Macbook Pro 虚拟机安装ARM飞牛.html": {
+    "title": "Macbook Pro 虚拟机安装ARM飞牛",
+    "link": "https://cloudsmithy.github.io/posts/567b12ef/",
+    "date": "2026-02-14",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "在Macbook Pro上突破原生限制，实现菊花链三屏显示（曲线救国版）.html": {
+    "title": "在Macbook Pro上突破原生限制，实现菊花链三屏显示（曲线救国版）",
+    "link": "https://cloudsmithy.github.io/posts/cb0bcf1b/",
+    "date": "2026-02-08",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "国民NAS 飞牛零日漏洞之后：我们需要什么样的 NAS ？.html": {
+    "title": "国民NAS 飞牛零日漏洞之后：我们需要什么样的 NAS ？",
+    "link": "https://cloudsmithy.github.io/posts/75d5cfe5/",
+    "date": "2026-02-06",
+    "main_cat": "懒猫微服",
+    "sub_cat": "番外"
+  },
+  "使用 AWS SES + S3 发送 HTML 邮件.html": {
+    "title": "使用 AWS SES + S3 发送 HTML 邮件",
+    "link": "https://cloudsmithy.github.io/posts/d51f292a/",
+    "date": "2026-02-01",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "一次拿trace把langfuse打挂的修复.html": {
+    "title": "一次拿trace把langfuse打挂的修复",
+    "link": "https://cloudsmithy.github.io/posts/c4eda619/",
+    "date": "2026-01-31",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "懒猫微服实战入门（三十四）：方寸之间，自有天地：懒猫微服，男人的网络瑞士军刀.html": {
+    "title": "懒猫微服实战入门（三十四）：方寸之间，自有天地：懒猫微服，男人的网络瑞士军刀",
+    "link": "https://cloudsmithy.github.io/posts/5226a270/",
+    "date": "2026-01-30",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服进阶心得（十五）：超越systemd，不用每次开机都再安装软件～.html": {
+    "title": "懒猫微服进阶心得（十五）：超越systemd，不用每次开机都再安装软件～",
+    "link": "https://cloudsmithy.github.io/posts/c1ba52cc/",
+    "date": "2026-01-30",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "懒猫微服：不只是 NAS，更适合云计算宝宝体质.html": {
+    "title": "懒猫微服：不只是 NAS，更适合云计算宝宝体质",
+    "link": "https://cloudsmithy.github.io/posts/b0a96c84/",
+    "date": "2026-01-16",
+    "main_cat": "懒猫微服",
+    "sub_cat": "番外"
+  },
+  "小抄们.html": {
+    "title": "小抄们",
+    "link": "https://cloudsmithy.github.io/posts/11ca0dba/",
+    "date": "2025-12-31",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "装修日记.html": {
+    "title": "装修日记",
+    "link": "https://cloudsmithy.github.io/posts/a7fd58f1/",
+    "date": "2025-12-31",
+    "main_cat": "零碎生活",
+    "sub_cat": ""
+  },
+  "告别 DSL！我用 MCP 让 AI 帮我操作 Easysearch.html": {
+    "title": "告别 DSL！我用 MCP 让 AI 帮我操作 Easysearch",
+    "link": "https://cloudsmithy.github.io/posts/9ca6531a/",
+    "date": "2025-12-30",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "被天才吧耽误，Apple silicon 死机与恢复的一年.html": {
+    "title": "被天才吧耽误，Apple silicon 死机与恢复的一年",
+    "link": "https://cloudsmithy.github.io/posts/d5918d57/",
+    "date": "2025-12-21",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "Amazon Bedrock AgentCore 开发实战（一）：本地构建 AI Agent.html": {
+    "title": "Amazon Bedrock AgentCore 开发实战（一）：本地构建 AI Agent",
+    "link": "https://cloudsmithy.github.io/posts/56feb9d1/",
+    "date": "2025-12-14",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "Milvus Workshop Web 版上线：4 万 Star 项目的官方实战教程，在手机上也能直接学了.html": {
+    "title": "Milvus Workshop Web 版上线：4 万 Star 项目的官方实战教程，在手机上也能直接学了",
+    "link": "https://cloudsmithy.github.io/posts/581baa02/",
+    "date": "2025-12-11",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "懒猫微服实战入门（三十三）：网络设置中不显示我的WIFI怎么办.html": {
+    "title": "懒猫微服实战入门（三十三）：网络设置中不显示我的WIFI怎么办?",
+    "link": "https://cloudsmithy.github.io/posts/ff23bf7c/",
+    "date": "2025-11-21",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "零代码改动！用 Docker 将 Flask 应用部署到 AWS Lambda.html": {
+    "title": "零代码改动！用 Docker 将 Flask 应用部署到 AWS Lambda",
+    "link": "https://cloudsmithy.github.io/posts/79854e67/",
+    "date": "2025-11-19",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "懒猫微服实战入门（三十一）：百度网盘迁移到懒猫网盘.html": {
+    "title": "懒猫微服实战入门（三十一）：百度网盘迁移到懒猫网盘",
+    "link": "https://cloudsmithy.github.io/posts/5332ecc4/",
+    "date": "2025-11-01",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（三十二）：让懒猫微服替你看家，摄像头接入篇（上）.html": {
+    "title": "懒猫微服实战入门（三十二）：让懒猫微服替你看家，摄像头接入篇（上）",
+    "link": "https://cloudsmithy.github.io/posts/88c99791/",
+    "date": "2025-11-01",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "Easysearch 更新后日志中看不到密码？一文带你搞清楚原因与解决方案.html": {
+    "title": "Easysearch 更新后日志中看不到密码？一文带你搞清楚原因与解决方案",
+    "link": "https://cloudsmithy.github.io/posts/dba72588/",
+    "date": "2025-10-19",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "懒猫微服开发篇（八）：反向代理与自签名 SSL 的优雅共存之道.html": {
+    "title": "懒猫微服开发篇（八）：反向代理与自签名 SSL 的优雅共存之道",
+    "link": "https://cloudsmithy.github.io/posts/990eab20/",
+    "date": "2025-10-07",
+    "main_cat": "懒猫微服",
+    "sub_cat": "开发"
+  },
+  "铁威马：被忽视的中坚NAS玩家，为何在群晖阴影下沉默？.html": {
+    "title": "铁威马：被忽视的中坚NAS玩家，为何在群晖阴影下沉默？",
+    "link": "https://cloudsmithy.github.io/posts/1690f93c/",
+    "date": "2025-10-07",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "Coco AI 插件商店很多功能，还能玩 2048.html": {
+    "title": "Coco AI 插件商店很多功能，还能玩 2048",
+    "link": "https://cloudsmithy.github.io/posts/76058f6a/",
+    "date": "2025-10-06",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "摘抄：我发现有个输出型爱好真的很重要.html": {
+    "title": "摘抄：我发现有个输出型爱好真的很重要",
+    "link": "https://cloudsmithy.github.io/posts/e7ef5dac/",
+    "date": "2025-10-04",
+    "main_cat": "摘抄",
+    "sub_cat": "B站大脑成长计划"
+  },
+  "摘抄：不要呆在没有话语权的小团体里.html": {
+    "title": "摘抄：不要呆在没有话语权的小团体里",
+    "link": "https://cloudsmithy.github.io/posts/8f725a10/",
+    "date": "2025-10-04",
+    "main_cat": "摘抄",
+    "sub_cat": "B站大脑成长计划"
+  },
+  "摘抄：改变自己最快的方式：早起+密集做事.html": {
+    "title": "摘抄：改变自己最快的方式：早起+密集做事",
+    "link": "https://cloudsmithy.github.io/posts/806d38a3/",
+    "date": "2025-10-04",
+    "main_cat": "摘抄",
+    "sub_cat": "B站大脑成长计划"
+  },
+  "摘抄：无事不要讲话，讲话只有三个目的.html": {
+    "title": "摘抄：无事不要讲话，讲话只有三个目的",
+    "link": "https://cloudsmithy.github.io/posts/78d33cb9/",
+    "date": "2025-10-04",
+    "main_cat": "摘抄",
+    "sub_cat": "B站大脑成长计划"
+  },
+  "Easysearch 的写入流程（一）：refresh.html": {
+    "title": "Easysearch 的写入流程（一）：refresh",
+    "link": "https://cloudsmithy.github.io/posts/eb05eb6d/",
+    "date": "2025-10-04",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "Docker 启动 Easysearch 时自定义初始密码的几种方式.html": {
+    "title": "Docker 启动 Easysearch 时自定义初始密码的几种方式",
+    "link": "https://cloudsmithy.github.io/posts/588b9d1d/",
+    "date": "2025-10-04",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "不用每次都改 `easysearch.yml` 也能改启动参数 —— 用 Docker 环境变量搞定一切.html": {
+    "title": "不用每次都改 `easysearch.yml` 也能改启动参数 —— 用 Docker 环境变量搞定一切",
+    "link": "https://cloudsmithy.github.io/posts/ce1ebcd3/",
+    "date": "2025-10-04",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "Elasticsearch 自动 Mapping 与 MySQL Schema 的对比分析.html": {
+    "title": "Elasticsearch 自动 Mapping 与 MySQL Schema 的对比分析",
+    "link": "https://cloudsmithy.github.io/posts/ce1ebcd3/",
+    "date": "2025-10-04",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "Easysearch 索引别名（Index Alias）详解.html": {
+    "title": "Easysearch 索引别名（Index Alias）详解",
+    "link": "https://cloudsmithy.github.io/posts/c41993b0/",
+    "date": "2025-10-04",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "懒猫微服炫技篇（四）：蓝牙音浪，懒猫开唱.html": {
+    "title": "懒猫微服炫技篇（四）：蓝牙音浪，懒猫开唱",
+    "link": "https://cloudsmithy.github.io/posts/afaab095/",
+    "date": "2025-10-02",
+    "main_cat": "懒猫微服",
+    "sub_cat": "炫技"
+  },
+  "懒猫微服炫技篇（九十九）：从今天起，不用安装客户端也能访问懒猫微服啦～.html": {
+    "title": "懒猫微服炫技篇（九十九）：从今天起，不用安装客户端也能访问懒猫微服啦～",
+    "link": "https://cloudsmithy.github.io/posts/cc9f9be0/",
+    "date": "2025-09-30",
+    "main_cat": "懒猫微服",
+    "sub_cat": "炫技"
+  },
+  "在嘉立创的泰山派上也能运行Easysearch.html": {
+    "title": "在嘉立创的泰山派上也能运行Easysearch",
+    "link": "https://cloudsmithy.github.io/posts/d0139002/",
+    "date": "2025-09-30",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "懒猫算力仓初探（一）：开箱手记.html": {
+    "title": "懒猫算力仓初探（一）：开箱手记",
+    "link": "https://cloudsmithy.github.io/posts/7ae44bfb/",
+    "date": "2025-09-25",
+    "main_cat": "懒猫微服",
+    "sub_cat": "算力仓"
+  },
+  "懒猫算力仓初探（二）：懒猫微服如何绑定算力仓？.html": {
+    "title": "懒猫算力仓初探（二）：懒猫微服如何绑定算力仓？",
+    "link": "https://cloudsmithy.github.io/posts/cbd8657f/",
+    "date": "2025-09-25",
+    "main_cat": "懒猫微服",
+    "sub_cat": "算力仓"
+  },
+  "懒猫算力仓初探（三）：如何 SSH 免密登陆以及配置免密 sudo？.html": {
+    "title": "懒猫算力仓初探（三）：如何 SSH 免密登陆以及配置免密 sudo？",
+    "link": "https://cloudsmithy.github.io/posts/a4c04b60/",
+    "date": "2025-09-25",
+    "main_cat": "懒猫微服",
+    "sub_cat": "算力仓"
+  },
+  "懒猫算力仓初探（四）：如何高效的向算力仓传输文件？.html": {
+    "title": "懒猫算力仓初探（四）：如何高效的向算力仓传输文件？",
+    "link": "https://cloudsmithy.github.io/posts/7419d0c1/",
+    "date": "2025-09-25",
+    "main_cat": "懒猫微服",
+    "sub_cat": "算力仓"
+  },
+  "懒猫算力仓初探（五）：有了图形界面，算力仓轻松设置静态 IP.html": {
+    "title": "懒猫算力仓初探（五）：有了图形界面，算力仓轻松设置静态 IP",
+    "link": "https://cloudsmithy.github.io/posts/2f8bfee6/",
+    "date": "2025-09-25",
+    "main_cat": "懒猫微服",
+    "sub_cat": "算力仓"
+  },
+  "Easysearch 可视化升级：无需额外部署 UI 软件.html": {
+    "title": "Easysearch 可视化升级：无需额外部署 UI 软件",
+    "link": "https://cloudsmithy.github.io/posts/a378e5b1/",
+    "date": "2025-09-20",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "懒猫微服实战入门（二十六）：Obsidian 用 GIT 同步总是冲突，果断存到懒猫微服了.html": {
+    "title": "懒猫微服实战入门（二十六）：Obsidian 用 GIT 同步总是冲突，果断存到懒猫微服了",
+    "link": "https://cloudsmithy.github.io/posts/a1d9284e/",
+    "date": "2025-09-19",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（二十七）：KSpeeder 加速，让 Docker 镜像不再超时.html": {
+    "title": "懒猫微服实战入门（二十七）：KSpeeder 加速，让 Docker 镜像不再超时",
+    "link": "https://cloudsmithy.github.io/posts/6300bfd5/",
+    "date": "2025-09-19",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（二十九）：域名解析与 2.5G 测速体验.html": {
+    "title": "懒猫微服实战入门（二十九）：域名解析与 2.5G 测速体验",
+    "link": "https://cloudsmithy.github.io/posts/63e9bc75/",
+    "date": "2025-09-19",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（二十八）：坏掉的 Windows 不要扔，硬盘插在懒猫上还能用.html": {
+    "title": "懒猫微服实战入门（二十八）：坏掉的 Windows 不要扔，硬盘插在懒猫上还能用",
+    "link": "https://cloudsmithy.github.io/posts/768b4867/",
+    "date": "2025-09-19",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（二十八）：如何获取懒猫微服的私有地址.html": {
+    "title": "懒猫微服实战入门（二十八）：如何获取懒猫微服的私有地址",
+    "link": "https://cloudsmithy.github.io/posts/4c7e3909/",
+    "date": "2025-09-19",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（三十）：懒猫微服改装闺蜜机，一台设备的多重人生.html": {
+    "title": "懒猫微服实战入门（三十）：懒猫微服改装闺蜜机，一台设备的多重人生",
+    "link": "https://cloudsmithy.github.io/posts/2c05ec4f/",
+    "date": "2025-09-19",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服进阶心得（十四）：接入 Casdoor，玩转OpenID Connect（OIDC）.html": {
+    "title": "懒猫微服进阶心得（十四）：接入 Casdoor，玩转OpenID Connect（OIDC）",
+    "link": "https://cloudsmithy.github.io/posts/93c9e4e6/",
+    "date": "2025-09-19",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "懒猫微服故事篇（四）：不折腾内网穿透了，懒猫微服一站式全搞定！.html": {
+    "title": "懒猫微服故事篇（四）：不折腾内网穿透了，懒猫微服一站式全搞定！",
+    "link": "https://cloudsmithy.github.io/posts/9806a8cb/",
+    "date": "2025-09-18",
+    "main_cat": "懒猫微服",
+    "sub_cat": "故事"
+  },
+  "一根网线搞定远程运维，GL-RM1PE 深度体验：远程运维、装机、开机一体化的 KVM over IP.html": {
+    "title": "一根网线搞定远程运维，GL-RM1PE 深度体验：远程运维、装机、开机一体化的 KVM over IP",
+    "link": "https://cloudsmithy.github.io/posts/63cca403/",
+    "date": "2025-09-15",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "懒猫微服故事篇（三）：朋友拿着一台没公网IP的服务器跑来找我，，问我能不能转发？.html": {
+    "title": "懒猫微服故事篇（三）：朋友拿着一台没公网IP的服务器跑来找我，，问我能不能转发？",
+    "link": "https://cloudsmithy.github.io/posts/52d0811e/",
+    "date": "2025-09-13",
+    "main_cat": "懒猫微服",
+    "sub_cat": "故事"
+  },
+  "群晖如何配置 Server 酱 Webhook 事件通知？.html": {
+    "title": "群晖如何配置 Server 酱 Webhook 事件通知？",
+    "link": "https://cloudsmithy.github.io/posts/e70dd7d7/",
+    "date": "2025-09-13",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "懒猫微服实战入门（二十五）：有了懒猫微服之后，我用 Vaultwarden 平替了 1Password订阅，附送迁移方案.html": {
+    "title": "懒猫微服实战入门（二十五）：有了懒猫微服之后，我用 Vaultwarden 平替了 1Password订阅，附送迁移方案",
+    "link": "https://cloudsmithy.github.io/posts/f46ed8e7/",
+    "date": "2025-09-10",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "早上起来，Chrome 白屏了…….html": {
+    "title": "早上起来，Chrome 白屏了……",
+    "link": "https://cloudsmithy.github.io/posts/a3db028b/",
+    "date": "2025-09-07",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "米其林  黑珍珠 ：金陵饭店 - 梅苑 用餐体验.html": {
+    "title": "米其林 * 黑珍珠 ：金陵饭店 - 梅苑 用餐体验",
+    "link": "https://cloudsmithy.github.io/posts/c6f5f74f/",
+    "date": "2025-09-06",
+    "main_cat": "零碎生活",
+    "sub_cat": "吃货风云"
+  },
+  "今天起，不用下载飞书也能用飞书多维表格了！.html": {
+    "title": "今天起，不用下载飞书也能用飞书多维表格了！",
+    "link": "https://cloudsmithy.github.io/posts/c8aadcda/",
+    "date": "2025-08-29",
+    "main_cat": "硬广",
+    "sub_cat": ""
+  },
+  "不建 Hugo、不用 Hexo，纯 Markdown 文件也能接入 Coco-AI！.html": {
+    "title": "不建 Hugo、不用 Hexo，纯 Markdown 文件也能接入 Coco-AI！",
+    "link": "https://cloudsmithy.github.io/posts/df454c34/",
+    "date": "2025-08-27",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "毕业很久了，女同学突然找来修电脑........html": {
+    "title": "毕业很久了，女同学突然找来修电脑.......",
+    "link": "https://cloudsmithy.github.io/posts/4b7a2922/",
+    "date": "2025-08-27",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "硬件探索记 Tuya 篇（一）：初识 T5 AI 开发板，先配置个环境吧.html": {
+    "title": "硬件探索记 Tuya 篇（一）：初识 T5 AI 开发板，先配置个环境吧",
+    "link": "https://cloudsmithy.github.io/posts/ab7870f7/",
+    "date": "2025-08-27",
+    "main_cat": "电子产品",
+    "sub_cat": "纯硬件"
+  },
+  "硬件黑客松的感受.html": {
+    "title": "硬件黑客松的感受",
+    "link": "https://cloudsmithy.github.io/posts/9a6d478a/",
+    "date": "2025-08-27",
+    "main_cat": "电子产品",
+    "sub_cat": "纯硬件"
+  },
+  "高铁上错车以及误车怎么办？.html": {
+    "title": "高铁上错车以及误车怎么办？",
+    "link": "https://cloudsmithy.github.io/posts/9ff7e5aa/",
+    "date": "2025-08-25",
+    "main_cat": "电子产品",
+    "sub_cat": ""
+  },
+  "如何白嫖嘉立创每个月免费打板？.html": {
+    "title": "如何白嫖嘉立创每个月免费打板？",
+    "link": "https://cloudsmithy.github.io/posts/de1fd60a/",
+    "date": "2025-08-11",
+    "main_cat": "电子产品",
+    "sub_cat": "纯硬件"
+  },
+  "Coco AI 服务端文件系统检索.html": {
+    "title": "Coco AI 服务端文件系统检索",
+    "link": "https://cloudsmithy.github.io/posts/ca3451f/",
+    "date": "2025-08-10",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "在 Coco AI 中接入 WordPress RSS，实现文章秒级搜索.html": {
+    "title": "在 Coco AI 中接入 WordPress RSS，实现文章秒级搜索",
+    "link": "https://cloudsmithy.github.io/posts/2bdb8c4a/",
+    "date": "2025-08-10",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "手把手教你使用 Coco AI 订阅RSS，智能检索Hexo博客.html": {
+    "title": "手把手教你使用 Coco AI 订阅RSS，智能检索Hexo博客",
+    "link": "https://cloudsmithy.github.io/posts/47752b69/",
+    "date": "2025-08-10",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "学云计算到底是在学什么？.html": {
+    "title": "学云计算到底是在学什么？",
+    "link": "https://cloudsmithy.github.io/posts/4b1e0fb/",
+    "date": "2025-08-10",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "从零到用：RSS 接入 Coco-AI 实战指南.html": {
+    "title": "从零到用：RSS 接入 Coco-AI 实战指南",
+    "link": "https://cloudsmithy.github.io/posts/2c28c43/",
+    "date": "2025-08-09",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "Coco AI × Amazon S3：秒搜你的云端文件.html": {
+    "title": "Coco AI × Amazon S3：秒搜你的云端文件",
+    "link": "https://cloudsmithy.github.io/posts/f050840/",
+    "date": "2025-08-09",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "大上墨水屏测评.html": {
+    "title": "大上墨水屏测评",
+    "link": "https://cloudsmithy.github.io/posts/2fca5ee8/",
+    "date": "2025-08-09",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "Google SEO 技巧.html": {
+    "title": "Google SEO 技巧",
+    "link": "https://cloudsmithy.github.io/posts/3d393e74/",
+    "date": "2025-08-08",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "普通人需要哪些电脑知识？.html": {
+    "title": "普通人需要哪些电脑知识？",
+    "link": "https://cloudsmithy.github.io/posts/87d5ac58/",
+    "date": "2025-08-08",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "使用 MacOS 给泰山派烧录镜像.html": {
+    "title": "使用 MacOS 给泰山派烧录镜像",
+    "link": "https://cloudsmithy.github.io/posts/89eeed1/",
+    "date": "2025-08-08",
+    "main_cat": "电子产品",
+    "sub_cat": "纯硬件"
+  },
+  "Mac 上 Orbstack的Docker容器访问微服 Wordpress IPv6 解析问题记录.html": {
+    "title": "Mac 上 Orbstack的Docker容器访问微服 Wordpress IPv6 解析问题记录",
+    "link": "https://cloudsmithy.github.io/posts/2ad973ba/",
+    "date": "2025-08-07",
+    "main_cat": "懒猫微服",
+    "sub_cat": "排查"
+  },
+  "修改 Hexo 的 RSS 阅读数量（Icarus 主题）.html": {
+    "title": "修改 Hexo 的 RSS 阅读数量（Icarus 主题）",
+    "link": "https://cloudsmithy.github.io/posts/2d0d3922/",
+    "date": "2025-08-07",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "避雷！ 百大值友熊猫不是猫公开抄袭文章理直气壮，态度恶劣，投诉、辟谣、关评全流程实录.html": {
+    "title": "避雷！ 百大值友熊猫不是猫公开抄袭文章理直气壮，态度恶劣，投诉、辟谣、关评全流程实录",
+    "link": "https://cloudsmithy.github.io/posts/951989c3/",
+    "date": "2025-08-05",
+    "main_cat": "零碎生活",
+    "sub_cat": "零碎"
+  },
+  "上网逛逛开源项目，发现自己的文章被偷了，心慈手软给对方整改机会，结果后悔到拍大腿!.html": {
+    "title": "上网逛逛开源项目，发现自己的文章被偷了，心慈手软给对方整改机会，结果后悔到拍大腿!",
+    "link": "https://cloudsmithy.github.io/posts/5f056020/",
+    "date": "2025-07-31",
+    "main_cat": "零碎生活",
+    "sub_cat": "零碎"
+  },
+  "找到了一个wedav的项目.html": {
+    "title": "找到了一个wedav的项目",
+    "link": "https://cloudsmithy.github.io/posts/3ebd9b42/",
+    "date": "2025-07-29",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "使用 OpenList 将 S3 转换为 WebDAV.html": {
+    "title": "使用 OpenList 将 S3 转换为 WebDAV",
+    "link": "https://cloudsmithy.github.io/posts/21efda6/",
+    "date": "2025-07-28",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "TrackWeight, 把 Macbook 的触控板当作电子秤.html": {
+    "title": "TrackWeight, 把 Macbook 的触控板当作电子秤",
+    "link": "https://cloudsmithy.github.io/posts/10473fce/",
+    "date": "2025-07-27",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "再也不用拼手速！一条命令直接进 BIOS（WindowsLinuxmacOS 全攻略).html": {
+    "title": "再也不用拼手速！一条命令直接进 BIOS（Windows/Linux/macOS 全攻略)",
+    "link": "https://cloudsmithy.github.io/posts/a0b67926/",
+    "date": "2025-07-27",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "记一次iphone的死机.html": {
+    "title": "记一次iphone的死机",
+    "link": "https://cloudsmithy.github.io/posts/b81a6bca/",
+    "date": "2025-07-27",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "AWS Credit 充值到账户全流程图文指南.html": {
+    "title": "AWS Credit 充值到账户全流程图文指南",
+    "link": "https://cloudsmithy.github.io/posts/11273243/",
+    "date": "2025-07-25",
+    "main_cat": "电子产品",
+    "sub_cat": ""
+  },
+  "懒猫微服实战入门（二十四）：在懒猫微服中使用群晖.html": {
+    "title": "懒猫微服实战入门（二十四）：在懒猫微服中使用群晖",
+    "link": "https://cloudsmithy.github.io/posts/815f771a/",
+    "date": "2025-07-25",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "家居常用软件.html": {
+    "title": "家居常用软件",
+    "link": "https://cloudsmithy.github.io/posts/73f93987/",
+    "date": "2025-07-25",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "懒猫微服实战入门（二十三）：使用 GitHub 单点登录到 Memos.html": {
+    "title": "懒猫微服实战入门（二十三）：使用 GitHub 单点登录到 Memos",
+    "link": "https://cloudsmithy.github.io/posts/b10cd1f4/",
+    "date": "2025-07-22",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服炫技篇（三）：sunshine+moonlight 双人串流打游戏.html": {
+    "title": "懒猫微服炫技篇（三）：sunshine+moonlight 双人串流打游戏",
+    "link": "https://cloudsmithy.github.io/posts/2d63e359/",
+    "date": "2025-07-22",
+    "main_cat": "懒猫微服",
+    "sub_cat": "炫技"
+  },
+  "懒猫微服买硬件送服务，刚学的计算机知识顺便接了个单.html": {
+    "title": "懒猫微服买硬件送服务，刚学的计算机知识顺便接了个单",
+    "link": "https://cloudsmithy.github.io/posts/cb1ae078/",
+    "date": "2025-07-18",
+    "main_cat": "懒猫微服",
+    "sub_cat": "番外"
+  },
+  "GIT小书.html": {
+    "title": "GIT小书",
+    "link": "https://cloudsmithy.github.io/posts/fa9f211a/",
+    "date": "2025-07-17",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "懒猫微服开发篇（七）： 解析 Docker Compose Override.html": {
+    "title": "懒猫微服开发篇（七）： 解析 Docker Compose Override",
+    "link": "https://cloudsmithy.github.io/posts/7ac076b/",
+    "date": "2025-07-17",
+    "main_cat": "懒猫微服",
+    "sub_cat": "开发"
+  },
+  "懒猫微服进阶心得（十一）：把懒猫微服当作旁路由，客户端无需转发直接访问内外地址.html": {
+    "title": "懒猫微服进阶心得（十一）：把懒猫微服当作旁路由，客户端无需转发直接访问内外地址",
+    "link": "https://cloudsmithy.github.io/posts/5018903b/",
+    "date": "2025-07-17",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "懒猫微服进阶心得（十二）：不登陆机器，如何使用 Docker Context 玩转微服容器？.html": {
+    "title": "懒猫微服进阶心得（十二）：不登陆机器，如何使用 Docker Context 玩转微服容器？",
+    "link": "https://cloudsmithy.github.io/posts/5018903b/",
+    "date": "2025-07-17",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "懒猫微服进阶心得（十三）： WebVirtCloud 安装 Windows 使用 virtIO 的注意事项.html": {
+    "title": "懒猫微服进阶心得（十三）： WebVirtCloud 安装 Windows 使用 virtIO 的注意事项",
+    "link": "https://cloudsmithy.github.io/posts/5018903b/",
+    "date": "2025-07-17",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "EC2 没有绑定 EIP，重启后 IP 会变？DDNS-GO 自动更新你的域名.html": {
+    "title": "EC2 没有绑定 EIP，重启后 IP 会变？DDNS-GO 自动更新你的域名",
+    "link": "https://cloudsmithy.github.io/posts/369cde6d/",
+    "date": "2025-07-14",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "懒猫微服实战入门（二十二）：使用 DDNS-GO 给 Cloudflare 做动态域名解析.html": {
+    "title": "懒猫微服实战入门（二十二）：使用 DDNS-GO 给 Cloudflare 做动态域名解析",
+    "link": "https://cloudsmithy.github.io/posts/6031f818/",
+    "date": "2025-07-13",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "快速启动 http 站点.html": {
+    "title": "快速启动 http 站点",
+    "link": "https://cloudsmithy.github.io/posts/572b7187/",
+    "date": "2025-07-11",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "懒猫微服实战入门（二十一）：使用 Memos 替代 Flomo.html": {
+    "title": "懒猫微服实战入门（二十一）：使用 Memos 替代 Flomo",
+    "link": "https://cloudsmithy.github.io/posts/6f97c31a/",
+    "date": "2025-07-11",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "MacOS 环境下运行 EasySearch 报错无法信任 Java 包的解决方案.html": {
+    "title": "MacOS 环境下运行 EasySearch 报错无法信任 Java 包的解决方案",
+    "link": "https://cloudsmithy.github.io/posts/b77119f9/",
+    "date": "2025-07-11",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "用Filebeat OSS 7.10.2将收集日志到Easysearch.html": {
+    "title": "用Filebeat OSS 7.10.2将收集日志到Easysearch",
+    "link": "https://cloudsmithy.github.io/posts/a0786458/",
+    "date": "2025-07-11",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "懒猫微服实战入门（二十）：如何使用 Time Machine 将 Mac 备份到懒猫微服.html": {
+    "title": "懒猫微服实战入门（二十）：如何使用 Time Machine 将 Mac 备份到懒猫微服",
+    "link": "https://cloudsmithy.github.io/posts/c5298d72/",
+    "date": "2025-07-10",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（十九）：我最喜欢的 RSS 阅读器-FreshRSS.html": {
+    "title": "懒猫微服实战入门（十九）：我最喜欢的 RSS 阅读器-FreshRSS",
+    "link": "https://cloudsmithy.github.io/posts/9fd148d9/",
+    "date": "2025-07-09",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "给传统 NAS 玩家介绍一下懒猫微服.html": {
+    "title": "给传统 NAS 玩家介绍一下懒猫微服",
+    "link": "https://cloudsmithy.github.io/posts/47885d90/",
+    "date": "2025-07-09",
+    "main_cat": "懒猫微服",
+    "sub_cat": "番外"
+  },
+  "懒猫微服开发篇（四）：懒猫微服如何使用 OpenID Connect （OIDC）？（上）.html": {
+    "title": "懒猫微服开发篇（四）：懒猫微服如何使用 OpenID Connect （OIDC）？（上）",
+    "link": "https://cloudsmithy.github.io/posts/dcc47393/",
+    "date": "2025-07-08",
+    "main_cat": "懒猫微服",
+    "sub_cat": "开发"
+  },
+  "京东售后拒修 AirPods 称无问题，苹果官方检测后直接换新！京东竟删除检测记录？.html": {
+    "title": "京东售后拒修 AirPods 称\"无问题\"，苹果官方检测后直接换新！京东竟删除检测记录？",
+    "link": "https://cloudsmithy.github.io/posts/c67acea7/",
+    "date": "2025-07-08",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "懒猫微服开发篇（三）：如何将已有 Docker Compose 应用移植到懒猫微服.html": {
+    "title": "懒猫微服开发篇（三）：如何将已有 Docker Compose 应用移植到懒猫微服",
+    "link": "https://cloudsmithy.github.io/posts/5e5f8aaa/",
+    "date": "2025-07-07",
+    "main_cat": "懒猫微服",
+    "sub_cat": "开发"
+  },
+  "Mac 上 Fn + F12 怎么改成 F12？（适用于 macOS 13 Ventura）.html": {
+    "title": "Mac 上 Fn + F12 怎么改成 F12？（适用于 macOS 13 Ventura）",
+    "link": "https://cloudsmithy.github.io/posts/18eac60e/",
+    "date": "2025-07-07",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "高版本的MacOS如何降级？.html": {
+    "title": "高版本的MacOS如何降级？",
+    "link": "https://cloudsmithy.github.io/posts/5b6f9bd/",
+    "date": "2025-07-07",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "懒猫微服实战入门（十八）：用 planka 做项目管理.html": {
+    "title": "懒猫微服实战入门（十八）：用 planka 做项目管理",
+    "link": "https://cloudsmithy.github.io/posts/51800531/",
+    "date": "2025-07-06",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服开发篇（二）：远程调试之 Devshell.html": {
+    "title": "懒猫微服开发篇（二）：远程调试之 Devshell",
+    "link": "https://cloudsmithy.github.io/posts/2c167bb4/",
+    "date": "2025-07-06",
+    "main_cat": "懒猫微服",
+    "sub_cat": "开发"
+  },
+  "懒猫微服开发篇（五）：懒猫微服如何使用 OpenID Connect （OIDC）？（下）.html": {
+    "title": "懒猫微服开发篇（五）：懒猫微服如何使用 OpenID Connect （OIDC）？（下）",
+    "link": "https://cloudsmithy.github.io/posts/48285dc8/",
+    "date": "2025-07-04",
+    "main_cat": "懒猫微服",
+    "sub_cat": "开发"
+  },
+  "懒猫微服开发篇（六）用 Openresty 做反向代理来解决跨域问题.html": {
+    "title": "懒猫微服开发篇（六）:用 Openresty 做反向代理来解决跨域问题",
+    "link": "https://cloudsmithy.github.io/posts/300338c6/",
+    "date": "2025-07-04",
+    "main_cat": "懒猫微服",
+    "sub_cat": "开发"
+  },
+  "使用 Zilliz Cloud 快速体验 Milvus.html": {
+    "title": "使用 Zilliz Cloud 快速体验 Milvus",
+    "link": "https://cloudsmithy.github.io/posts/938aef4d/",
+    "date": "2025-07-02",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "记年初的武汉游记.html": {
+    "title": "记年初的武汉游记",
+    "link": "https://cloudsmithy.github.io/posts/cc35fe6/",
+    "date": "2025-07-01",
+    "main_cat": "散文随笔",
+    "sub_cat": ""
+  },
+  "Gemini-cli 踩坑机：国内环境 , 用过 Google Cloud 如何设置？.html": {
+    "title": "Gemini-cli 踩坑机：国内环境 , 用过 Google Cloud 如何设置？",
+    "link": "https://cloudsmithy.github.io/posts/8d2ea5f5/",
+    "date": "2025-07-01",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "懒猫微服开发篇（一）：懒猫微服全栈上架指南，一步打包，一键发布.html": {
+    "title": "懒猫微服开发篇（一）：懒猫微服全栈上架指南，一步打包，一键发布",
+    "link": "https://cloudsmithy.github.io/posts/ec579c86/",
+    "date": "2025-07-01",
+    "main_cat": "懒猫微服",
+    "sub_cat": "开发"
+  },
+  "通过 SMTP 使用 163 邮箱发送邮件.html": {
+    "title": "通过 SMTP 使用 163 邮箱发送邮件",
+    "link": "https://cloudsmithy.github.io/posts/5dfd4b8a/",
+    "date": "2025-06-30",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "懒猫微服实战入门（十七）：把 Steam 游戏存到懒猫网盘.html": {
+    "title": "懒猫微服实战入门（十七）：把 Steam 游戏存到懒猫网盘",
+    "link": "https://cloudsmithy.github.io/posts/ffc71b6/",
+    "date": "2025-06-30",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（十六）：把懒猫微服当作 24 × 7 在线开发机.html": {
+    "title": "懒猫微服实战入门（十六）：把懒猫微服当作 24 × 7 在线开发机",
+    "link": "https://cloudsmithy.github.io/posts/25ccd3a3/",
+    "date": "2025-06-28",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "Easysearch 实战指南：修改索引主分片的三种方式（split  shrink  reindex.html": {
+    "title": "Easysearch 实战指南：修改索引主分片的三种方式（split  shrink  reindex",
+    "link": "https://cloudsmithy.github.io/posts/cba11cdd/",
+    "date": "2025-06-27",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "懒猫微服进阶心得（十）：本地开发，如何接入懒猫微服的 OpenID Connect (OIDC).html": {
+    "title": "懒猫微服进阶心得（十）：本地开发，如何接入懒猫微服的 OpenID Connect (OIDC)",
+    "link": "https://cloudsmithy.github.io/posts/4daab20a/",
+    "date": "2025-06-26",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "Lighting 原生不支持OTG！.html": {
+    "title": "Lighting 原生不支持OTG！",
+    "link": "https://cloudsmithy.github.io/posts/d969a069/",
+    "date": "2025-06-25",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "懒猫微服实战入门（十五）：大疆Pocket3 素材导入懒猫网盘.html": {
+    "title": "懒猫微服实战入门（十五）：大疆Pocket3 素材导入懒猫网盘",
+    "link": "https://cloudsmithy.github.io/posts/50f8f5d2/",
+    "date": "2025-06-23",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服排查篇（二）：上架应用后，pip 安装报错 HASH 不一致.html": {
+    "title": "懒猫微服排查篇（二）：上架应用后，pip 安装报错 HASH 不一致",
+    "link": "https://cloudsmithy.github.io/posts/cf7f5d3/",
+    "date": "2025-06-23",
+    "main_cat": "懒猫微服",
+    "sub_cat": "排查"
+  },
+  "Easysearch 索引关闭与重开全攻略：open close 操作、批量处理及防误操作配置.html": {
+    "title": "Easysearch 索引关闭与重开全攻略：open close 操作、批量处理及防误操作配置",
+    "link": "https://cloudsmithy.github.io/posts/af48f3e/",
+    "date": "2025-06-23",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "懒猫微服开发篇（零）：上架应用需要哪些知识.html": {
+    "title": "懒猫微服开发篇（零）：上架应用需要哪些知识",
+    "link": "https://cloudsmithy.github.io/posts/c7acbc13/",
+    "date": "2025-06-22",
+    "main_cat": "懒猫微服",
+    "sub_cat": "开发"
+  },
+  "懒猫微服进阶心得（九）：商店 App 如何接管 Docker 引擎？.html": {
+    "title": "懒猫微服进阶心得（九）：商店 App 如何接管 Docker 引擎？",
+    "link": "https://cloudsmithy.github.io/posts/e8e61ce7/",
+    "date": "2025-06-21",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "MacOS 26 beta 如何恢复启动台.html": {
+    "title": "MacOS 26 beta 如何恢复启动台",
+    "link": "https://cloudsmithy.github.io/posts/83eb1399/",
+    "date": "2025-06-21",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "懒猫微服实战入门（十四）：不登录客户端，如何用 Samba 挂载懒猫微服网盘？.html": {
+    "title": "懒猫微服实战入门（十四）：不登录客户端，如何用 Samba 挂载懒猫微服网盘？",
+    "link": "https://cloudsmithy.github.io/posts/86ecba8b/",
+    "date": "2025-06-20",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服排查篇（一）：403 Forbidden！记应用商店 pip 使用清华源的报错.html": {
+    "title": "懒猫微服排查篇（一）：403 Forbidden！记应用商店 pip 使用清华源的报错",
+    "link": "https://cloudsmithy.github.io/posts/c20c194c/",
+    "date": "2025-06-20",
+    "main_cat": "懒猫微服",
+    "sub_cat": "排查"
+  },
+  "Amazon OpenSearch Service 现在支持 JSON Web Token（JWT）身份验证和授权.html": {
+    "title": "Amazon OpenSearch Service 现在支持 JSON Web Token（JWT）身份验证和授权",
+    "link": "https://cloudsmithy.github.io/posts/330e574/",
+    "date": "2025-06-19",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "组队参加 Amazon Q Idea 1000，我们的作品上了 AWS 峰会.html": {
+    "title": "组队参加 Amazon Q Idea 1000，我们的作品上了 AWS 峰会",
+    "link": "https://cloudsmithy.github.io/posts/ac23bcf7/",
+    "date": "2025-06-19",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "基于 AWS IAM Identity Center 的 SAML 配置，实现单点登录阿里云.html": {
+    "title": "基于 AWS IAM Identity Center 的 SAML 配置，实现单点登录阿里云",
+    "link": "https://cloudsmithy.github.io/posts/511c83d9/",
+    "date": "2025-06-19",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "懒猫微服入门篇（零）：开箱初探，硬件亮相.html": {
+    "title": "懒猫微服入门篇（零）：开箱初探，硬件亮相",
+    "link": "https://cloudsmithy.github.io/posts/4022bac/",
+    "date": "2025-06-18",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服炫技篇（二）：使用懒猫微服倒推停电时间.html": {
+    "title": "懒猫微服炫技篇（二）：使用懒猫微服倒推停电时间",
+    "link": "https://cloudsmithy.github.io/posts/b6479fd0/",
+    "date": "2025-06-17",
+    "main_cat": "懒猫微服",
+    "sub_cat": "炫技"
+  },
+  "懒猫微服进阶心得（八）：如何在 ARM 机器上下载并运行X86镜像以及在X86上运行ARM镜像.html": {
+    "title": "懒猫微服进阶心得（八）：如何在 ARM 机器上下载并运行X86镜像以及在X86上运行ARM镜像",
+    "link": "https://cloudsmithy.github.io/posts/86ab1d7c/",
+    "date": "2025-06-16",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "给群晖安装Iperf3，一键局域网测速.html": {
+    "title": "给群晖安装Iperf3，一键局域网测速",
+    "link": "https://cloudsmithy.github.io/posts/e70dd7d7/",
+    "date": "2025-06-14",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "如何在 AWS EC2 上部署 Isaac Sim.html": {
+    "title": "如何在 AWS EC2 上部署 Isaac Sim",
+    "link": "https://cloudsmithy.github.io/posts/10d4e175/",
+    "date": "2025-06-11",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "懒猫微服故事篇（二）：西湖邂逅后，我手把手教她玩转NAS.html": {
+    "title": "懒猫微服故事篇（二）：西湖邂逅后，我手把手教她玩转NAS",
+    "link": "https://cloudsmithy.github.io/posts/943b4ba6/",
+    "date": "2025-06-08",
+    "main_cat": "懒猫微服",
+    "sub_cat": "故事"
+  },
+  "本地 RAG 实战：用 Easysearch + Ollama SDK 半小时搭建检索增强问答系统.html": {
+    "title": "本地 RAG 实战：用 Easysearch + Ollama SDK 半小时搭建检索增强问答系统",
+    "link": "https://cloudsmithy.github.io/posts/5a5307d/",
+    "date": "2025-06-08",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "我用Amazon Q写了一个Docker客户端，并上架了懒猫微服商店.html": {
+    "title": "我用Amazon Q写了一个Docker客户端，并上架了懒猫微服商店",
+    "link": "https://cloudsmithy.github.io/posts/8f0212bf/",
+    "date": "2025-06-07",
+    "main_cat": "懒猫微服",
+    "sub_cat": "番外"
+  },
+  "懒猫微服进阶心得（七）：懒猫的镜像仓库.html": {
+    "title": "懒猫微服进阶心得（七）：懒猫的镜像仓库",
+    "link": "https://cloudsmithy.github.io/posts/8cdf9a5/",
+    "date": "2025-06-06",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "懒猫微服进阶心得（六）：以纸砚双拼为例，快速移植纯前端项目到懒猫微服.html": {
+    "title": "懒猫微服进阶心得（六）：以纸砚双拼为例，快速移植纯前端项目到懒猫微服",
+    "link": "https://cloudsmithy.github.io/posts/7294709a/",
+    "date": "2025-06-05",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "懒猫微服实战入门（十三）：懒猫穿透不只图形化，纯命令行服务器也可以.html": {
+    "title": "懒猫微服实战入门（十三）：懒猫穿透不只图形化，纯命令行服务器也可以",
+    "link": "https://cloudsmithy.github.io/posts/3d7a2d17/",
+    "date": "2025-06-04",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（十二）：用 iVentoy 打造你的 PXE 服务器.html": {
+    "title": "懒猫微服实战入门（十二）：用 iVentoy 打造你的 PXE 服务器",
+    "link": "https://cloudsmithy.github.io/posts/9d1544e0/",
+    "date": "2025-06-03",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服进阶心得（五）：使用懒猫微服做Ventoy启动盘.html": {
+    "title": "懒猫微服进阶心得（五）：使用懒猫微服做Ventoy启动盘",
+    "link": "https://cloudsmithy.github.io/posts/1c49be8c/",
+    "date": "2025-06-02",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "懒猫微服实战入门（十一）：一键换源指南：用 chsrc 开启丝滑体验.html": {
+    "title": "懒猫微服实战入门（十一）：一键换源指南：用 chsrc 开启丝滑体验",
+    "link": "https://cloudsmithy.github.io/posts/eef881d4/",
+    "date": "2025-06-01",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "手把手搞定报名亚马逊科技认证.html": {
+    "title": "手把手搞定报名亚马逊科技认证",
+    "link": "https://cloudsmithy.github.io/posts/4533e9f8/",
+    "date": "2025-06-01",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "记一次Amazon Q pro的使用.html": {
+    "title": "记一次Amazon Q pro的使用",
+    "link": "https://cloudsmithy.github.io/posts/56bb1eb7/",
+    "date": "2025-06-01",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "懒猫微服实战入门（十）：通过 nmtui 设置静态 IP，接入旁路由实现科学上网.html": {
+    "title": "懒猫微服实战入门（十）：通过 nmtui 设置静态 IP，接入旁路由实现科学上网",
+    "link": "https://cloudsmithy.github.io/posts/b704f5f8/",
+    "date": "2025-05-31",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（九）：给懒猫安装图形界面，使用 XRDP 实现远程桌面.html": {
+    "title": "懒猫微服实战入门（九）：给懒猫安装图形界面，使用 XRDP 实现远程桌面",
+    "link": "https://cloudsmithy.github.io/posts/8e360f7e/",
+    "date": "2025-05-30",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服进阶心得（四）：每次重启都丢配置？用 systemctl --user 自动装回环境！.html": {
+    "title": "懒猫微服进阶心得（四）：每次重启都丢配置？用 systemctl --user 自动装回环境！",
+    "link": "https://cloudsmithy.github.io/posts/95e86a3c/",
+    "date": "2025-05-29",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "懒猫微服实战入门（八）：懒猫微服 × SSH Remote：打造随时随地的云端开发环境.html": {
+    "title": "懒猫微服实战入门（八）：懒猫微服 × SSH Remote：打造随时随地的云端开发环境",
+    "link": "https://cloudsmithy.github.io/posts/778337f4/",
+    "date": "2025-05-28",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "写给懒猫微服玩家的容器小书Docker篇（五）：《多容器交响曲：Docker Compose 上场》.html": {
+    "title": "写给懒猫微服玩家的容器小书Docker篇（五）：《多容器交响曲：Docker Compose 上场》",
+    "link": "https://cloudsmithy.github.io/posts/61cfcd24/",
+    "date": "2025-05-22",
+    "main_cat": "懒猫微服",
+    "sub_cat": "容器"
+  },
+  "懒猫微服故事篇（一）：服务器宕机之后，我和前端靠懒猫微服结对编程.html": {
+    "title": "懒猫微服故事篇（一）：服务器宕机之后，我和前端靠懒猫微服结对编程",
+    "link": "https://cloudsmithy.github.io/posts/d2e0eee4/",
+    "date": "2025-05-21",
+    "main_cat": "懒猫微服",
+    "sub_cat": "故事"
+  },
+  "写给懒猫微服玩家的容器小书 Docker篇（四）：《数据之岛与持久化卷》.html": {
+    "title": "写给懒猫微服玩家的容器小书 Docker篇（四）：《数据之岛与持久化卷》",
+    "link": "https://cloudsmithy.github.io/posts/8b5626cb/",
+    "date": "2025-05-21",
+    "main_cat": "懒猫微服",
+    "sub_cat": "容器"
+  },
+  "懒猫微服进阶心得（三）：一台机器跑三套 Docker？深入解析懒猫容器的共存机制（下）.html": {
+    "title": "懒猫微服进阶心得（三）：一台机器跑三套 Docker？深入解析懒猫容器的共存机制（下）",
+    "link": "https://cloudsmithy.github.io/posts/b853f136/",
+    "date": "2025-05-20",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "写给懒猫微服玩家的容器小书 Docker篇（三）：《容器部落生活》.html": {
+    "title": "写给懒猫微服玩家的容器小书 Docker篇（三）：《容器部落生活》",
+    "link": "https://cloudsmithy.github.io/posts/5517bd46/",
+    "date": "2025-05-20",
+    "main_cat": "懒猫微服",
+    "sub_cat": "容器"
+  },
+  "懒猫微服实战入门（七）：超越蒲公英SD-WAN，用懒猫转发服务，Ipad随时远程家里window.html": {
+    "title": "懒猫微服实战入门（七）：超越蒲公英SD-WAN，用懒猫转发服务，Ipad随时远程家里window",
+    "link": "https://cloudsmithy.github.io/posts/59f4c56d/",
+    "date": "2025-05-19",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服进阶心得（二）：一台机器跑三套 Docker？深入解析懒猫容器的共存机制（上）.html": {
+    "title": "懒猫微服进阶心得（二）：一台机器跑三套 Docker？深入解析懒猫容器的共存机制（上）",
+    "link": "https://cloudsmithy.github.io/posts/1d9319fb/",
+    "date": "2025-05-19",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "写给懒猫微服玩家的容器小书 Docker篇（二）：《镜像旅馆的秘密》.html": {
+    "title": "写给懒猫微服玩家的容器小书 Docker篇（二）：《镜像旅馆的秘密》",
+    "link": "https://cloudsmithy.github.io/posts/e0565a55/",
+    "date": "2025-05-19",
+    "main_cat": "懒猫微服",
+    "sub_cat": "容器"
+  },
+  "如何关闭 AWS root 账号的 MFA 认证.html": {
+    "title": "如何关闭 AWS root 账号的 MFA 认证",
+    "link": "https://cloudsmithy.github.io/posts/f4ce40dc/",
+    "date": "2025-05-19",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "懒猫微服炫技篇（一）：使用懒猫微服的穿透服务，车机使用DS music 远程听歌，黑群晖不用再洗白.html": {
+    "title": "懒猫微服炫技篇（一）：使用懒猫微服的穿透服务，车机使用DS music 远程听歌，黑群晖不用再洗白",
+    "link": "https://cloudsmithy.github.io/posts/12695041/",
+    "date": "2025-05-18",
+    "main_cat": "懒猫微服",
+    "sub_cat": "炫技"
+  },
+  "写给懒猫微服玩家的容器小书 Docker篇（一）：《无法部署的诅咒》.html": {
+    "title": "写给懒猫微服玩家的容器小书 Docker篇（一）：《无法部署的诅咒》",
+    "link": "https://cloudsmithy.github.io/posts/effe7a9a/",
+    "date": "2025-05-18",
+    "main_cat": "懒猫微服",
+    "sub_cat": "容器"
+  },
+  "懒猫微服实战入门（六）：使用2fauth共享你的MFA.html": {
+    "title": "懒猫微服实战入门（六）：使用2fauth共享你的MFA",
+    "link": "https://cloudsmithy.github.io/posts/b6b74923/",
+    "date": "2025-05-16",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "深度长文：NAS大降价的年代，我为何接受溢价来购买懒猫微服（附送回本攻略）.html": {
+    "title": "深度长文：NAS大降价的年代，我为何接受溢价来购买懒猫微服（附送回本攻略）",
+    "link": "https://cloudsmithy.github.io/posts/d6c5e7b2/",
+    "date": "2025-05-15",
+    "main_cat": "懒猫微服",
+    "sub_cat": "番外"
+  },
+  "懒猫微服实战入门（五）：文件上传到懒猫网盘，SMB 电视盒子观影.html": {
+    "title": "懒猫微服实战入门（五）：文件上传到懒猫网盘，SMB 电视盒子观影",
+    "link": "https://cloudsmithy.github.io/posts/b62d86a5/",
+    "date": "2025-05-14",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服进阶心得（一）：M芯片移植懒猫应用构建Docker镜像的常见问题排查及解决方案.html": {
+    "title": "懒猫微服进阶心得（一）：M芯片移植懒猫应用构建Docker镜像的常见问题排查及解决方案",
+    "link": "https://cloudsmithy.github.io/posts/126ed22c/",
+    "date": "2025-05-13",
+    "main_cat": "懒猫微服",
+    "sub_cat": "进阶"
+  },
+  "懒猫微服实战入门（四）：完全DNS访问，和本地代理冲突了怎么办？.html": {
+    "title": "懒猫微服实战入门（四）：完全DNS访问，和本地代理冲突了怎么办？",
+    "link": "https://cloudsmithy.github.io/posts/36782d5f/",
+    "date": "2025-05-12",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "懒猫微服实战入门（三）懒猫智慧屏，以为是地表最强电视盒子，结果是闺蜜机.html": {
+    "title": "懒猫微服实战入门（三）:懒猫智慧屏，以为是地表最强电视盒子，结果是闺蜜机",
+    "link": "https://cloudsmithy.github.io/posts/5a9099c0/",
+    "date": "2025-05-11",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "车机锁 Wi‑Fi 奸商跑路，高楼组 Mesh 极客破局.html": {
+    "title": "车机锁 Wi‑Fi 奸商跑路，高楼组 Mesh 极客破局",
+    "link": "https://cloudsmithy.github.io/posts/fc9b2cf2/",
+    "date": "2025-05-10",
+    "main_cat": "电子产品",
+    "sub_cat": "路由器"
+  },
+  "Proxmox Virtual Environment (PVE) 虚拟机安装不完全指南.html": {
+    "title": "Proxmox Virtual Environment (PVE) 虚拟机安装不完全指南",
+    "link": "https://cloudsmithy.github.io/posts/13af016a/",
+    "date": "2025-05-10",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "懒猫微服实战入门（二）：打造多人协作环境,权限控制+数据隔离一步到位.html": {
+    "title": "懒猫微服实战入门（二）：打造多人协作环境,权限控制+数据隔离一步到位",
+    "link": "https://cloudsmithy.github.io/posts/4d17c8d/",
+    "date": "2025-05-09",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "轻松管理 ES 集群：我把 Infinilabs Console 上架了懒猫微服，默认支持外网访问、.html": {
+    "title": "轻松管理 ES 集群：我把 Infinilabs Console 上架了懒猫微服，默认支持外网访问、",
+    "link": "https://cloudsmithy.github.io/posts/75c015c8/",
+    "date": "2025-05-08",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "懒猫微服实战入门（一）： 从开启SSH到免密登录，一步步教你搞定远程管理.html": {
+    "title": "懒猫微服实战入门（一）： 从开启SSH到免密登录，一步步教你搞定远程管理",
+    "link": "https://cloudsmithy.github.io/posts/56f9b737/",
+    "date": "2025-05-07",
+    "main_cat": "懒猫微服",
+    "sub_cat": "入门"
+  },
+  "快速检索懒猫商店1000+应用,微服秒变Mac原生APP.html": {
+    "title": "快速检索懒猫商店1000+应用,微服秒变Mac原生APP",
+    "link": "https://cloudsmithy.github.io/posts/ce3905e3/",
+    "date": "2025-05-06",
+    "main_cat": "懒猫微服",
+    "sub_cat": "番外"
+  },
+  "MySQL数据实时接入Easysearch，零代码迁移全流程.html": {
+    "title": "MySQL数据实时接入Easysearch，零代码迁移全流程",
+    "link": "https://cloudsmithy.github.io/posts/7a296932/",
+    "date": "2025-05-04",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "自带内网穿透,懒猫微服治好了我的NAS焦虑.html": {
+    "title": "自带内网穿透,懒猫微服治好了我的NAS焦虑",
+    "link": "https://cloudsmithy.github.io/posts/b1e8232f/",
+    "date": "2025-05-03",
+    "main_cat": "懒猫微服",
+    "sub_cat": "番外"
+  },
+  "使用 Nginx 获取并返回客户端的公网 IP 地址.html": {
+    "title": "使用 Nginx 获取并返回客户端的公网 IP 地址",
+    "link": "https://cloudsmithy.github.io/posts/92ab0084/",
+    "date": "2025-04-23",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "从认证到透传：用 Nginx 为 Easysearch 构建一体化认证网关.html": {
+    "title": "从认证到透传：用 Nginx 为 Easysearch 构建一体化认证网关",
+    "link": "https://cloudsmithy.github.io/posts/c50511c4/",
+    "date": "2025-04-23",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "威联通 QNAP 系列 (一) 全闪 NAS TBS-h574TX QuTS hero 初探.html": {
+    "title": "威联通 QNAP 系列 (一) 全闪 NAS TBS-h574TX QuTS hero 初探",
+    "link": "https://cloudsmithy.github.io/posts/7acb32ac/",
+    "date": "2025-04-23",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "Easysearch 服务昨天还好好的，为什么今天突然访问不了了？.html": {
+    "title": "Easysearch 服务昨天还好好的，为什么今天突然访问不了了？",
+    "link": "https://cloudsmithy.github.io/posts/8d9611a5/",
+    "date": "2025-04-22",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "Easysearch 基础运维扫盲指南：从 HTTP 到 HTTPS、认证与安全访问全解析.html": {
+    "title": "Easysearch 基础运维扫盲指南：从 HTTP 到 HTTPS、认证与安全访问全解析",
+    "link": "https://cloudsmithy.github.io/posts/1f7436df/",
+    "date": "2025-04-22",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "Coco-AI 接入 Google drive.html": {
+    "title": "Coco-AI 接入 Google drive",
+    "link": "https://cloudsmithy.github.io/posts/10b05aec/",
+    "date": "2025-04-16",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "Coco-AI 集成语雀作为语料库进行检索.html": {
+    "title": "Coco-AI 集成语雀作为语料库进行检索",
+    "link": "https://cloudsmithy.github.io/posts/6a9ecc86/",
+    "date": "2025-04-16",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "Coco-AI 接入自定义数据源.html": {
+    "title": "Coco-AI 接入自定义数据源",
+    "link": "https://cloudsmithy.github.io/posts/271ab503/",
+    "date": "2025-04-16",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "Coco-AI 支持嵌入，让你的网站拥有 AI 搜索力.html": {
+    "title": "Coco-AI 支持嵌入，让你的网站拥有 AI 搜索力",
+    "link": "https://cloudsmithy.github.io/posts/e32dbde5/",
+    "date": "2025-04-02",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "等了半年的 POE 系统，铭凡 S100 不完全测评.html": {
+    "title": "等了半年的 POE 系统，铭凡 S100 不完全测评",
+    "link": "https://cloudsmithy.github.io/posts/a7aa5f43/",
+    "date": "2025-04-01",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "Cudy TR3000 刷 Openwrt.html": {
+    "title": "Cudy TR3000 刷 Openwrt",
+    "link": "https://cloudsmithy.github.io/posts/3e1838df/",
+    "date": "2025-04-01",
+    "main_cat": "电子产品",
+    "sub_cat": "路由器"
+  },
+  "如何使用 Iphone 拍摄 JPG 格式的照片.html": {
+    "title": "如何使用 Iphone 拍摄 JPG 格式的照片",
+    "link": "https://cloudsmithy.github.io/posts/4bc0fb74/",
+    "date": "2025-04-01",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "PXE 装机：iventoy 聊胜于无.html": {
+    "title": "PXE 装机：iventoy 聊胜于无",
+    "link": "https://cloudsmithy.github.io/posts/3ff07059/",
+    "date": "2025-04-01",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "Docker-Compose部署 EasySearch 异常问题排查.html": {
+    "title": "Docker-Compose部署 EasySearch 异常问题排查",
+    "link": "https://cloudsmithy.github.io/posts/719d7034/",
+    "date": "2025-03-23",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "拓展 Coco AI 功能 - 智能检索 Hexo 博客.html": {
+    "title": "拓展 Coco AI 功能 - 智能检索 Hexo 博客",
+    "link": "https://cloudsmithy.github.io/posts/9eab63c2/",
+    "date": "2025-03-19",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "Coco AI 智能检索 Hugo Blog 集成指南.html": {
+    "title": "Coco AI 智能检索 Hugo Blog 集成指南",
+    "link": "https://cloudsmithy.github.io/posts/afa68182/",
+    "date": "2025-03-17",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "CoCo AI APP 初体验：开启智能知识管理新篇章.html": {
+    "title": "CoCo AI APP 初体验：开启智能知识管理新篇章",
+    "link": "https://cloudsmithy.github.io/posts/eb0b4c83/",
+    "date": "2025-03-10",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "Coco AI 全新升级：全图形化 RAG 配置，一键开启智能知识管理！.html": {
+    "title": "Coco AI 全新升级：全图形化 RAG 配置，一键开启智能知识管理！",
+    "link": "https://cloudsmithy.github.io/posts/b126c84d/",
+    "date": "2025-03-10",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "飞牛OS虚拟机初体验.html": {
+    "title": "飞牛OS虚拟机初体验",
+    "link": "https://cloudsmithy.github.io/posts/3608dae8/",
+    "date": "2025-03-10",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "Easysearch 中 PUT 和 POST 更新索引的区别及常见错误解析.html": {
+    "title": "Easysearch 中 PUT 和 POST 更新索引的区别及常见错误解析",
+    "link": "https://cloudsmithy.github.io/posts/d5a28fff/",
+    "date": "2025-03-08",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "Easysearch 使用 AWS S3 进行快照备份与还原：完整指南及常见错误排查.html": {
+    "title": "Easysearch 使用 AWS S3 进行快照备份与还原：完整指南及常见错误排查",
+    "link": "https://cloudsmithy.github.io/posts/eab170f2/",
+    "date": "2025-03-08",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "从 Flask 项目打包为多平台 Docker 镜像并上传 Docker Hub（含 GitHub Actions.html": {
+    "title": "从 Flask 项目打包为多平台 Docker 镜像并上传 Docker Hub（含 GitHub Actions",
+    "link": "https://cloudsmithy.github.io/posts/e51b087c/",
+    "date": "2025-03-01",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "群晖导入磁盘大法 - 安装img.html": {
+    "title": "群晖导入磁盘大法 - 安装img",
+    "link": "https://cloudsmithy.github.io/posts/8c366e49/",
+    "date": "2025-03-01",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "实现 INFINI Console 与 GitHub 的单点登录集成：一站式身份验证解决方案.html": {
+    "title": "实现 INFINI Console 与 GitHub 的单点登录集成：一站式身份验证解决方案",
+    "link": "https://cloudsmithy.github.io/posts/86ef0187/",
+    "date": "2025-02-21",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "使用 INFINI Console 配置集群监控 Webhook 通知指南.html": {
+    "title": "使用 INFINI Console 配置集群监控 Webhook 通知指南",
+    "link": "https://cloudsmithy.github.io/posts/361d01a9/",
+    "date": "2025-02-20",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "推荐给 Easysearch 新用户的几个 Elasticsearch 可视化工具.html": {
+    "title": "推荐给 Easysearch 新用户的几个 Elasticsearch 可视化工具",
+    "link": "https://cloudsmithy.github.io/posts/e3691a5b/",
+    "date": "2025-02-19",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "打造智能语料库：通过Coco AI Server 实现 Notion 笔记 RAG 检索功能.html": {
+    "title": "打造智能语料库：通过Coco AI Server 实现 Notion 笔记 RAG 检索功能",
+    "link": "https://cloudsmithy.github.io/posts/3d90967f/",
+    "date": "2025-02-16",
+    "main_cat": "极限科技",
+    "sub_cat": "Coco"
+  },
+  "Typora 和Obsidian 自动使用 Github 做在线图床.html": {
+    "title": "Typora 和Obsidian 自动使用 Github 做在线图床",
+    "link": "https://cloudsmithy.github.io/posts/1fc7f9f5/",
+    "date": "2025-02-14",
+    "main_cat": "电子产品",
+    "sub_cat": "软件技巧"
+  },
+  "DSM 外接磁盘挂载记录.html": {
+    "title": "DSM 外接磁盘挂载记录",
+    "link": "https://cloudsmithy.github.io/posts/f2e07cac/",
+    "date": "2025-02-14",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "追忆青春 - 黑群晖.md.html": {
+    "title": "追忆青春 - 黑群晖.md",
+    "link": "https://cloudsmithy.github.io/posts/795ed575/",
+    "date": "2025-02-14",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "Macbook Pro快速搭建Easysearch学习环境.html": {
+    "title": "Macbook Pro快速搭建Easysearch学习环境",
+    "link": "https://cloudsmithy.github.io/posts/8b29e69c/",
+    "date": "2025-02-10",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "群晖套娃飞牛OS（FnOS）.html": {
+    "title": "群晖套娃飞牛OS（FnOS）",
+    "link": "https://cloudsmithy.github.io/posts/1eb7a4c5/",
+    "date": "2025-02-01",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "老式打印机改 Airprint 之 cups.html": {
+    "title": "老式打印机改 Airprint 之 cups",
+    "link": "https://cloudsmithy.github.io/posts/6fcedbb0/",
+    "date": "2025-01-19",
+    "main_cat": "电子产品",
+    "sub_cat": "打印机"
+  },
+  "酒店机场免费WIFI不弹认证？用这个方法.html": {
+    "title": "酒店机场免费WIFI不弹认证？用这个方法",
+    "link": "https://cloudsmithy.github.io/posts/c39ca3b5/",
+    "date": "2025-01-14",
+    "main_cat": "电子产品",
+    "sub_cat": "软件技巧"
+  },
+  "记一次消防演练.html": {
+    "title": "记一次消防演练",
+    "link": "https://cloudsmithy.github.io/posts/cd8d8984/",
+    "date": "2024-11-07",
+    "main_cat": "零碎生活",
+    "sub_cat": ""
+  },
+  "Markdown 完全指南.html": {
+    "title": "Markdown 完全指南",
+    "link": "https://cloudsmithy.github.io/posts/84c20813/",
+    "date": "2024-09-15",
+    "main_cat": "电子产品",
+    "sub_cat": "软件技巧"
+  },
+  "关于速食我想说的话.html": {
+    "title": "关于速食我想说的话",
+    "link": "https://cloudsmithy.github.io/posts/404bc04b/",
+    "date": "2024-08-26",
+    "main_cat": "零碎生活",
+    "sub_cat": ""
+  },
+  "INFINI Console 使用介绍.html": {
+    "title": "INFINI Console 使用介绍",
+    "link": "https://cloudsmithy.github.io/posts/bde1966f/",
+    "date": "2024-07-21",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "Easysearch、Elasticsearch、Amazon OpenSearch 快照兼容对比.html": {
+    "title": "Easysearch、Elasticsearch、Amazon OpenSearch 快照兼容对比",
+    "link": "https://cloudsmithy.github.io/posts/80e06f4b/",
+    "date": "2024-07-18",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "Easysearch 数据可视化和管理平台：INFINI Console 使用介绍.html": {
+    "title": "Easysearch 数据可视化和管理平台：INFINI Console 使用介绍",
+    "link": "https://cloudsmithy.github.io/posts/ebd08f3f/",
+    "date": "2024-07-09",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "Linux常用命令.html": {
+    "title": "Linux常用命令",
+    "link": "https://cloudsmithy.github.io/posts/d0edc1ed/",
+    "date": "2024-07-01",
+    "main_cat": "软件",
+    "sub_cat": ""
+  },
+  "INFINI Easysearch尝鲜Hands on.html": {
+    "title": "INFINI Easysearch尝鲜Hands on",
+    "link": "https://cloudsmithy.github.io/posts/8c820eb6/",
+    "date": "2024-06-29",
+    "main_cat": "极限科技",
+    "sub_cat": "Easysearch"
+  },
+  "外滩夜游.html": {
+    "title": "外滩夜游",
+    "link": "https://cloudsmithy.github.io/posts/b4d03554/",
+    "date": "2024-05-27",
+    "main_cat": "散文随笔",
+    "sub_cat": ""
+  },
+  "便携显示器.html": {
+    "title": "便携显示器",
+    "link": "https://cloudsmithy.github.io/posts/3badab23/",
+    "date": "2024-05-11",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "你的下一个电脑还得是电脑.html": {
+    "title": "你的下一个电脑还得是电脑",
+    "link": "https://cloudsmithy.github.io/posts/c40f7be/",
+    "date": "2024-05-11",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "《每个人的OKR》书摘.html": {
+    "title": "《每个人的OKR》书摘",
+    "link": "https://cloudsmithy.github.io/posts/54f71ff9/",
+    "date": "2024-05-01",
+    "main_cat": "读书有感",
+    "sub_cat": ""
+  },
+  "使用ipad 串流 MacOS.html": {
+    "title": "使用ipad 串流 MacOS",
+    "link": "https://cloudsmithy.github.io/posts/474f606e/",
+    "date": "2024-03-23",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "自制辣椒油.html": {
+    "title": "自制辣椒油",
+    "link": "https://cloudsmithy.github.io/posts/eae9c1f1/",
+    "date": "2024-02-17",
+    "main_cat": "零碎生活",
+    "sub_cat": ""
+  },
+  "电容键盘体验.html": {
+    "title": "电容键盘体验",
+    "link": "https://cloudsmithy.github.io/posts/7b93b635/",
+    "date": "2024-02-15",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "MacOS安装的软件无法打开.html": {
+    "title": "MacOS安装的软件无法打开",
+    "link": "https://cloudsmithy.github.io/posts/3ab0fe4d/",
+    "date": "2024-02-01",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "多平台日程同步.html": {
+    "title": "多平台日程同步",
+    "link": "https://cloudsmithy.github.io/posts/450f2bc0/",
+    "date": "2024-01-10",
+    "main_cat": "电子产品",
+    "sub_cat": "软件技巧"
+  },
+  "Home Assistant 实现米家设备接入 HomeKit，圆梦苹果全家桶.html": {
+    "title": "Home Assistant 实现米家设备接入 HomeKit，圆梦苹果全家桶",
+    "link": "https://cloudsmithy.github.io/posts/aec4a8fe/",
+    "date": "2024-01-01",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "NFC复制卡写手机手环.html": {
+    "title": "NFC复制卡写手机手环",
+    "link": "https://cloudsmithy.github.io/posts/5ce15c7a/",
+    "date": "2024-01-01",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "出远门带的电子产品.html": {
+    "title": "出远门带的电子产品",
+    "link": "https://cloudsmithy.github.io/posts/3205bf5/",
+    "date": "2024-01-01",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "雷电4传输.html": {
+    "title": "雷电4传输",
+    "link": "https://cloudsmithy.github.io/posts/6cc0c7dd/",
+    "date": "2023-12-31",
+    "main_cat": "电子产品",
+    "sub_cat": "软件技巧"
+  },
+  "悠乐汇看雪.html": {
+    "title": "悠乐汇看雪",
+    "link": "https://cloudsmithy.github.io/posts/1fcc0fa5/",
+    "date": "2023-12-12",
+    "main_cat": "零碎生活",
+    "sub_cat": "北漂"
+  },
+  "Filebeat 输出日志到 Opensearch.html": {
+    "title": "Filebeat 输出日志到 Opensearch",
+    "link": "https://cloudsmithy.github.io/posts/8924813e/",
+    "date": "2023-12-08",
+    "main_cat": "软件",
+    "sub_cat": "AWS"
+  },
+  "爱情是婚姻的坟墓么.html": {
+    "title": "爱情是婚姻的坟墓么",
+    "link": "https://cloudsmithy.github.io/posts/5102820d/",
+    "date": "2023-11-30",
+    "main_cat": "散文随笔",
+    "sub_cat": ""
+  },
+  "从望京吃到酒仙桥.html": {
+    "title": "从望京吃到酒仙桥",
+    "link": "https://cloudsmithy.github.io/posts/512ddea4/",
+    "date": "2023-11-10",
+    "main_cat": "零碎生活",
+    "sub_cat": "吃货风云"
+  },
+  "几个获取公网IP的网站.html": {
+    "title": "几个获取公网IP的网站",
+    "link": "https://cloudsmithy.github.io/posts/b893f77b/",
+    "date": "2023-09-26",
+    "main_cat": "零碎生活",
+    "sub_cat": ""
+  },
+  "网络维修记录.html": {
+    "title": "网络维修记录",
+    "link": "https://cloudsmithy.github.io/posts/da62ad7a/",
+    "date": "2023-09-11",
+    "main_cat": "电子产品",
+    "sub_cat": "软件技巧"
+  },
+  "假装南方小土豆,哈尔滨一日游,再也不去了.html": {
+    "title": "假装南方小土豆,哈尔滨一日游,再也不去了",
+    "link": "https://cloudsmithy.github.io/posts/32308110/",
+    "date": "2023-07-21",
+    "main_cat": "零碎生活",
+    "sub_cat": ""
+  },
+  "消毒药水.html": {
+    "title": "消毒药水",
+    "link": "https://cloudsmithy.github.io/posts/ff4866a6/",
+    "date": "2023-07-21",
+    "main_cat": "零碎生活",
+    "sub_cat": ""
+  },
+  "好叶视频笔记.html": {
+    "title": "好叶视频笔记",
+    "link": "https://cloudsmithy.github.io/posts/7966bd76/",
+    "date": "2023-07-01",
+    "main_cat": "读书有感",
+    "sub_cat": ""
+  },
+  "小米4A刷OpenWrt.html": {
+    "title": "小米4A刷OpenWrt",
+    "link": "https://cloudsmithy.github.io/posts/63a7a8fe/",
+    "date": "2023-06-21",
+    "main_cat": "电子产品",
+    "sub_cat": "路由器"
+  },
+  "血型.html": {
+    "title": "血型",
+    "link": "https://cloudsmithy.github.io/posts/d14ad726/",
+    "date": "2023-05-22",
+    "main_cat": "零碎生活",
+    "sub_cat": ""
+  },
+  "MacOS干扰那些事.html": {
+    "title": "MacOS干扰那些事",
+    "link": "https://cloudsmithy.github.io/posts/9afa2bcc/",
+    "date": "2023-05-22",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "地坛游记.html": {
+    "title": "地坛游记",
+    "link": "https://cloudsmithy.github.io/posts/bb8b63b3/",
+    "date": "2023-04-28",
+    "main_cat": "散文随笔",
+    "sub_cat": ""
+  },
+  "雨.html": {
+    "title": "雨",
+    "link": "https://cloudsmithy.github.io/posts/13ca4a36/",
+    "date": "2023-04-27",
+    "main_cat": "散文随笔",
+    "sub_cat": ""
+  },
+  "深夜随笔.html": {
+    "title": "深夜随笔",
+    "link": "https://cloudsmithy.github.io/posts/fb8d6bf1/",
+    "date": "2023-04-02",
+    "main_cat": "散文随笔",
+    "sub_cat": ""
+  },
+  "ventoy引导wtg.html": {
+    "title": "ventoy引导wtg",
+    "link": "https://cloudsmithy.github.io/posts/874b576b/",
+    "date": "2023-02-09",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "intel 12代CPU折腾记.html": {
+    "title": "intel 12代CPU折腾记",
+    "link": "https://cloudsmithy.github.io/posts/5821c3b8/",
+    "date": "2023-02-05",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "打印机改无线.html": {
+    "title": "打印机改无线",
+    "link": "https://cloudsmithy.github.io/posts/79388b04/",
+    "date": "2023-01-24",
+    "main_cat": "电子产品",
+    "sub_cat": "打印机"
+  },
+  "家有吃货之自制纯肉肠.html": {
+    "title": "家有吃货之自制纯肉肠",
+    "link": "https://cloudsmithy.github.io/posts/75eceee6/",
+    "date": "2023-01-14",
+    "main_cat": "零碎生活",
+    "sub_cat": "吃货风云"
+  },
+  "自制味精.html": {
+    "title": "自制味精",
+    "link": "https://cloudsmithy.github.io/posts/9599d85d/",
+    "date": "2023-01-14",
+    "main_cat": "零碎生活",
+    "sub_cat": "吃货风云"
+  },
+  "工具集锦.html": {
+    "title": "工具集锦",
+    "link": "https://cloudsmithy.github.io/posts/cf8e3176/",
+    "date": "2023-01-05",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "无限续面.html": {
+    "title": "无限续面",
+    "link": "https://cloudsmithy.github.io/posts/45c86e6c/",
+    "date": "2022-12-29",
+    "main_cat": "零碎生活",
+    "sub_cat": "吃货风云"
+  },
+  "工作台改造.html": {
+    "title": "工作台改造",
+    "link": "https://cloudsmithy.github.io/posts/baed0386/",
+    "date": "2022-10-17",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "“智能”家居相伴的日子.html": {
+    "title": "“智能”家居相伴的日子",
+    "link": "https://cloudsmithy.github.io/posts/49e53210/",
+    "date": "2022-06-19",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "小米Ax5400双宽带叠加.html": {
+    "title": "小米Ax5400双宽带叠加",
+    "link": "https://cloudsmithy.github.io/posts/4625bf56/",
+    "date": "2022-05-05",
+    "main_cat": "电子产品",
+    "sub_cat": "路由器"
+  },
+  "北京租房心得.html": {
+    "title": "北京租房心得",
+    "link": "https://cloudsmithy.github.io/posts/cdd2a06/",
+    "date": "2022-04-22",
+    "main_cat": "零碎生活",
+    "sub_cat": "北漂"
+  },
+  "2022年6月2日 北京医院拒诊（中日友好医院）.html": {
+    "title": "2022年6月2日 北京医院拒诊（中日友好医院）",
+    "link": "https://cloudsmithy.github.io/posts/69b5547e/",
+    "date": "2022-04-22",
+    "main_cat": "零碎生活",
+    "sub_cat": "北漂"
+  },
+  "小白零基础线上配镜，拔草蔡司。.html": {
+    "title": "小白零基础线上配镜，拔草蔡司。",
+    "link": "https://cloudsmithy.github.io/posts/b97d7b57/",
+    "date": "2021-10-07",
+    "main_cat": "零碎生活",
+    "sub_cat": ""
+  },
+  "代码之髓.html": {
+    "title": "代码之髓",
+    "link": "https://cloudsmithy.github.io/posts/fc64123d/",
+    "date": "2021-01-21",
+    "main_cat": "读书有感",
+    "sub_cat": ""
+  },
+  "关键20小时.html": {
+    "title": "关键20小时",
+    "link": "https://cloudsmithy.github.io/posts/614ff5d2/",
+    "date": "2021-01-21",
+    "main_cat": "读书有感",
+    "sub_cat": ""
+  },
+  "效率（忘记哪里摘抄的了.html": {
+    "title": "效率（忘记哪里摘抄的了",
+    "link": "https://cloudsmithy.github.io/posts/26314a8/",
+    "date": "2021-01-21",
+    "main_cat": "读书有感",
+    "sub_cat": ""
+  },
+  "自控力.html": {
+    "title": "自控力",
+    "link": "https://cloudsmithy.github.io/posts/ca2dc828/",
+    "date": "2021-01-21",
+    "main_cat": "读书有感",
+    "sub_cat": ""
+  },
+  "记录mokee刷机.html": {
+    "title": "记录mokee刷机",
+    "link": "https://cloudsmithy.github.io/posts/a8322290/",
+    "date": "2021-01-21",
+    "main_cat": "电子产品",
+    "sub_cat": "软件技巧"
+  },
+  "生活小妙招.html": {
+    "title": "生活小妙招",
+    "link": "https://cloudsmithy.github.io/posts/29d0960/",
+    "date": "2020-01-14",
+    "main_cat": "零碎生活",
+    "sub_cat": "碎碎念"
+  },
+  "吃掉那只青蛙.html": {
+    "title": "吃掉那只青蛙",
+    "link": "https://cloudsmithy.github.io/posts/4141dd35/",
+    "date": "2018-10-24",
+    "main_cat": "读书有感",
+    "sub_cat": ""
+  },
+  "驯服头脑中的野兽.html": {
+    "title": "驯服头脑中的野兽",
+    "link": "https://cloudsmithy.github.io/posts/101d9cf0/",
+    "date": "2018-10-24",
+    "main_cat": "读书有感",
+    "sub_cat": ""
+  },
+  "房间.html": {
+    "title": "房间",
+    "link": "https://cloudsmithy.github.io/posts/e1677cc4/",
+    "date": "2018-02-05",
+    "main_cat": "散文随笔",
+    "sub_cat": ""
+  },
+  "佛•教化•屠杀.html": {
+    "title": "佛•教化•屠杀",
+    "link": "https://cloudsmithy.github.io/posts/b4d03554/",
+    "date": "2017-10-05",
+    "main_cat": "散文随笔",
+    "sub_cat": ""
+  },
+  "硬件常见的坑.html": {
+    "title": "硬件常见的坑",
+    "link": "https://cloudsmithy.github.io/posts/6f08b777/",
+    "date": "2017-10-05",
+    "main_cat": "电子产品",
+    "sub_cat": "外设"
+  },
+  "身份证科普.html": {
+    "title": "身份证科普",
+    "link": "https://cloudsmithy.github.io/posts/7a47d12b/",
+    "date": "2017-10-05",
+    "main_cat": "零碎生活",
+    "sub_cat": "碎碎念"
+  },
+  "SSD介绍.html": {
+    "title": "SSD介绍",
+    "link": "https://cloudsmithy.github.io/posts/2e34d332/",
+    "date": "2017-03-09",
+    "main_cat": "电子产品",
+    "sub_cat": "电脑"
+  },
+  "晨间流程.html": {
+    "title": "晨间流程",
+    "link": "https://cloudsmithy.github.io/posts/5e8400b1/",
+    "date": "1999-12-31",
+    "main_cat": "零碎生活",
+    "sub_cat": ""
+  },
+  "写作大纲.html": {
+    "title": "写作大纲",
+    "link": "https://cloudsmithy.github.io/posts/8f3221dd/",
+    "date": "1969-12-31",
+    "main_cat": "散文随笔",
+    "sub_cat": ""
+  },
+  "极限科技稿件数据.html": {
+    "title": "极限科技稿件数据",
+    "link": "https://cloudsmithy.github.io/posts/8e911a70/",
+    "date": "1969-12-31",
+    "main_cat": "极限科技",
+    "sub_cat": ""
+  }
+}

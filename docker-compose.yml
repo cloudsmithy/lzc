@@ -1,13 +1,12 @@
-version: '3.8'
-
 services:
-  article-fetcher:
+  lanmao:
     build: .
     container_name: lanmao-articles
     ports:
       - "8080:80"
     volumes:
       - ./articles:/data/articles
-    restart: unless-stopped
     environment:
       - TZ=Asia/Shanghai
+      - FETCH_INTERVAL=43200  # 12小时 = 43200秒
+    restart: unless-stopped
