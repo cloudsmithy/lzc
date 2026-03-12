@@ -166,13 +166,44 @@ ARTICLE_TEMPLATE = '''<!DOCTYPE html>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 </head>
 <body>
-    <div class="container">
+    <nav class="toc" id="toc"></nav>
+    <div class="article-page">
         <a class="back" href="../index.html">← 返回列表</a>
         <div class="meta">{date} · {sub_cat} · <a href="{link}">原文链接</a></div>
         <h1>{title}</h1>
         <div class="content">{content}</div>
     </div>
-    <script>hljs.highlightAll();</script>
+    <script>
+        hljs.highlightAll();
+        // 生成目录
+        (function() {{
+            const content = document.querySelector('.content');
+            const toc = document.getElementById('toc');
+            const headings = content.querySelectorAll('h2, h3');
+            if (headings.length < 2) {{ toc.style.display = 'none'; return; }}
+            let html = '<div class="toc-title">目录</div><ul>';
+            headings.forEach((h, i) => {{
+                const id = 'heading-' + i;
+                h.id = id;
+                const cls = h.tagName === 'H3' ? ' class="toc-sub"' : '';
+                html += '<li' + cls + '><a href="#' + id + '">' + h.textContent + '</a></li>';
+            }});
+            html += '</ul>';
+            toc.innerHTML = html;
+            // 滚动高亮
+            const links = toc.querySelectorAll('a');
+            const observer = new IntersectionObserver(entries => {{
+                entries.forEach(entry => {{
+                    if (entry.isIntersecting) {{
+                        links.forEach(a => a.classList.remove('active'));
+                        const active = toc.querySelector('a[href="#' + entry.target.id + '"]');
+                        if (active) active.classList.add('active');
+                    }}
+                }});
+            }}, {{ rootMargin: '0px 0px -70% 0px' }});
+            headings.forEach(h => observer.observe(h));
+        }})();
+    </script>
 </body>
 </html>'''
 
@@ -221,13 +252,11 @@ def generate_index(articles, all_tags):
 <body>
     <div class="hero">
         <div class="hero-content">
-            <div class="logo">🐱</div>
             <h1>懒猫微服专栏</h1>
-            <p class="subtitle">专栏作家手把手带你玩转懒猫微服</p>
+            <p class="subtitle">手把手带你玩转懒猫微服</p>
             <div class="stats">
-                <span>📚 {len(articles)} 篇文章</span>
-                <span>🏷️ {len(all_tags)} 个分类</span>
-                <span>🔄 每 12 小时更新</span>
+                <div class="stat-box"><span class="stat-num">{len(articles)}</span><span class="stat-label">篇文章</span></div>
+                <div class="stat-box"><span class="stat-num">{len(all_tags)}</span><span class="stat-label">个分类</span></div>
             </div>
         </div>
     </div>
@@ -237,6 +266,7 @@ def generate_index(articles, all_tags):
         </div>
         <div class="tag-filter">
             {tags_html}
+            <button class="tag-btn sort-btn" id="sortBtn" data-order="desc">🕐 最新优先</button>
         </div>
         <ul class="article-list" id="article-list">
 {items_html}        </ul>
@@ -246,9 +276,12 @@ def generate_index(articles, all_tags):
     </div>
     <script>
         const searchInput = document.getElementById('search');
-        const tagBtns = document.querySelectorAll('.tag-btn');
-        const items = document.querySelectorAll('.article-item');
+        const tagBtns = document.querySelectorAll('.tag-btn:not(.sort-btn)');
+        const sortBtn = document.getElementById('sortBtn');
+        const list = document.getElementById('article-list');
+        const items = Array.from(document.querySelectorAll('.article-item'));
         let currentTag = 'all';
+        let sortOrder = 'desc';
 
         function filterArticles() {{
             const query = searchInput.value.toLowerCase();
@@ -264,6 +297,15 @@ def generate_index(articles, all_tags):
             }});
         }}
 
+        function sortArticles() {{
+            const sorted = [...items].sort((a, b) => {{
+                const da = a.querySelector('.article-date').textContent;
+                const db = b.querySelector('.article-date').textContent;
+                return sortOrder === 'desc' ? db.localeCompare(da) : da.localeCompare(db);
+            }});
+            sorted.forEach(item => list.appendChild(item));
+        }}
+
         searchInput.addEventListener('input', filterArticles);
         tagBtns.forEach(btn => {{
             btn.addEventListener('click', function() {{
@@ -272,6 +314,12 @@ def generate_index(articles, all_tags):
                 currentTag = this.getAttribute('data-tag');
                 filterArticles();
             }});
+        }});
+        sortBtn.addEventListener('click', function() {{
+            sortOrder = sortOrder === 'desc' ? 'asc' : 'desc';
+            this.textContent = sortOrder === 'desc' ? '🕐 最新优先' : '🕐 最早优先';
+            sortArticles();
+            filterArticles();
         }});
     </script>
 </body>
@@ -310,21 +358,29 @@ def fetch():
         pub_date = parse_date(entry)
         date_str = pub_date.strftime('%Y-%m-%d')
 
-        # 已缓存的直接用
+        # 已缓存的直接用（但要确认 HTML 文件存在）
         if filename in meta:
             cached = meta[filename]
             if cached.get('main_cat') == FILTER_CATEGORY:
                 sub_cat = cached.get('sub_cat', '')
+                html_exists = (ARTICLES_DIR / filename).exists()
                 if sub_cat:
                     all_tags.add(sub_cat)
-                articles.append({
-                    'title': title,
-                    'filename': filename,
-                    'date': date_str,
-                    'sub_cat': sub_cat,
-                    'timestamp': pub_date.timestamp()
-                })
-            continue
+                if html_exists:
+                    articles.append({
+                        'title': title,
+                        'filename': filename,
+                        'date': date_str,
+                        'sub_cat': sub_cat,
+                        'timestamp': pub_date.timestamp()
+                    })
+                    continue
+                else:
+                    # HTML 文件丢失，需要重新抓取
+                    log.info(f"重新抓取(文件丢失): {title[:50]}...")
+                    del meta[filename]
+            else:
+                continue
 
         log.info(f"检查: {title[:50]}...")
         content, main_cat, sub_cat = fetch_article(link)

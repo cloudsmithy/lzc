@@ -1,4 +1,11 @@
+# 抓取产物
 articles/*.html
-articles/articles.json
+articles.json
+index.html
+
+# Python
 __pycache__/
 *.pyc
+
+# macOS
+.DS_Store
